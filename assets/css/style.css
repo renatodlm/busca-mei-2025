@@ -10985,7 +10985,7 @@ p {
   width: 100%;
   height: 100%;
   background-color: #fff;
-  opacity: 0.6;
+  opacity: 0.85;
   z-index: 1;
 }
 .hero .box-hero {
@@ -11014,6 +11014,7 @@ p {
   flex-direction: column;
   width: 100%;
   margin-left: auto;
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.9);
 }
 .form-hero input {
   border-radius: 4px;
@@ -11039,12 +11040,30 @@ p {
   font-size: 16px;
 }
 
+.termo-uso {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+.termo-uso .link-termo {
+  color: #397ddd;
+  margin-left: 5px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.termo-uso .link-termo:hover {
+  text-decoration: underline;
+  color: #428bc1;
+}
+
 .link-login {
   display: block;
   max-width: 410px;
   margin-left: auto;
   text-align: center;
-  color: #fff;
+  color: #245ba7;
   margin-top: 10px;
 }
 .link-login strong {
@@ -11053,7 +11072,7 @@ p {
   font-style: normal;
 }
 .link-login:hover {
-  color: #fff;
+  color: #428bc1;
 }
 
 .vantaggi {
@@ -11159,13 +11178,8 @@ p {
   margin-bottom: 30px;
   height: 100%;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: all 0.3s ease;
-}
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(57, 125, 221, 0.1);
 }
 .card .status {
   background: #fdea5b;
@@ -11395,7 +11409,7 @@ footer a {
   background-color: #fff;
   border-radius: 8px;
   padding: 12px 32px;
-  color: #245ba7;
+  color: #245ba7 !important;
   position: absolute;
   margin-top: 20px;
   display: flex;
@@ -11405,7 +11419,7 @@ footer a {
   margin-right: 5px;
 }
 .btn-social:hover {
-  color: #428BC1 !important;
+  color: #428bc1 !important;
 }
 
 .section-footer {
@@ -11445,9 +11459,10 @@ footer ul {
   font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
+  color: #fff;
 }
 .menu-footer a:hover {
-  color: #245ba7;
+  color: #f5f5c4;
 }
 
 .social-media {

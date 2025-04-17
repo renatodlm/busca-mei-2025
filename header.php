@@ -35,12 +35,13 @@
 
                     <div class="navbar">
                         <ul class="nav menu">
-                            <a href="cerca-casa.php">Cerca casa</a>
-                            <a href="como-funziona.php">Como Funziona</a>
-                            <a href="faq.php">FAQ</a>
+                            <a href="buscar-profissional.php">Buscar Profissional</a>
+                            <a href="como-funciona.php">Como Funciona</a>
+                            <a href="faq.php">Dúvidas frequentes</a>
+                            <a href="contato.php">Contato</a>
                         </ul>
-                        <a href="#" class="button-orange">Pubblica annuncio</a>
-                        <a href="login.php" class="button-transparent">Accedi</a>
+                        <a href="#" class="button-orange">Seja um profissional</a>
+                        <a href="login.php" class="button-transparent">Entrar</a>
 
                         <div class="language">
                             <div class="arrow"></div>

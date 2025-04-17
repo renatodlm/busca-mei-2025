@@ -45,9 +45,9 @@
             <div class="row">
                 <div class="col-6">
                     <ul class="list-copy">
-                        <li>@ 2021 buscamei</li>
+                        <li>© 2025 AEIFI. Todos Direitos Reservados.</li>
                         <li>|</li>
-                        <li>DSZHLS90E56Z602Q</li>
+                        <li>CNPJ 17.318.179/0001-22</li>
                     </ul>
                 </div>
                 <div class="col-6">

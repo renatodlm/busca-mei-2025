@@ -11,11 +11,14 @@
                 </div>
                 <div class="col-md-8">
                     <div class="form-hero">
-                        <label for="">Dove cerchi?</label>
-                        <input type="text" placeholder="Entra una città ui">
-                        <a href="#" class="button-orange">Trova Ora</a>
+                        <label for="pesquisa">Pesquise o profissional que você precisa!</label>
+                        <input type="text" id="pesquisa" placeholder="Digite a profissão ou serviço que você está buscando">
+                        <a href="#" class="button-orange">Pesquisar</a>
                     </div>
-                    <a href="login.php" class="link-login"><strong>Proprietario:</strong> inserisci gratis il tuo annuncio</a>
+                    <div class="termo-uso">
+                        <span>Ao pesquisar um profissional, você concorda com o </span>
+                        <a href="termos.php" class="link-termo">Termo de uso</a>
+                    </div>
                 </div>
             </div>
         </div>

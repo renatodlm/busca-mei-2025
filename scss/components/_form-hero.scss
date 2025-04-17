@@ -6,6 +6,8 @@
   flex-direction: column;
   width: 100%;
   margin-left: auto;
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.9);
+
   input {
     border-radius: 4px;
     border: 1px solid #a5aaaa;
@@ -18,8 +20,28 @@
     text-align: center;
     margin-top: 16px;
     padding: 20px 27px;
-    @include neuemedium;
+    @include medium;
     font-size: 16px;
+  }
+}
+
+.termo-uso {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: $dark-gray;
+
+  .link-termo {
+    color: $mantra;
+    margin-left: 5px;
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+      color: $light-blue;
+    }
   }
 }
 
@@ -28,13 +50,13 @@
   max-width: 410px;
   margin-left: auto;
   text-align: center;
-  color: #fff;
+  color: $blue;
   margin-top: 10px;
   strong {
-    @include neuemedium;
+    @include medium;
   }
 
   &:hover {
-    color: #fff;
+    color: $light-blue;
   }
 }
