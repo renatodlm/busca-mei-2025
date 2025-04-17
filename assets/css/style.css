@@ -10794,45 +10794,124 @@ textarea.form-control-lg {
   }
 }
 @font-face {
-  font-family: "Sequel100Black-45";
-  src: url("./assets/fonts/Sequel100Black-45.eot");
-  src: url("./assets/fonts/Sequel100Black-45.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/Sequel100Black-45.woff2") format("woff2"), url("./assets/fonts/Sequel100Black-45.woff") format("woff"), url("./assets/fonts/Sequel100Black-45.ttf") format("truetype"), url("./assets/fonts/Sequel100Black-45.svg#Sequel100Black-45") format("svg");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Neue Haas Grotesk Display";
-  src: url("./assets/fonts/NeueHaasGroteskDisplay-Reg.eot");
-  src: url("./assets/fonts/NeueHaasGroteskDisplay-Reg.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/NeueHaasGroteskDisplay-Reg.woff2") format("woff2"), url("./assets/fonts/NeueHaasGroteskDisplay-Reg.woff") format("woff"), url("./assets/fonts/NeueHaasGroteskDisplay-Reg.ttf") format("truetype"), url("./assets/fonts/NeueHaasGroteskDisplay-Reg.svg#NeueHaasGroteskDisplay-Reg") format("svg");
+  font-family: "DM Serif Display";
+  src: url("./assets/fonts/DMSerifDisplay-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Neue Haas Grotesk Display";
-  src: url("./assets/fonts/NeueHaasGroteskDisplay-Bold.eot");
-  src: url("./assets/fonts/NeueHaasGroteskDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/NeueHaasGroteskDisplay-Bold.woff2") format("woff2"), url("./assets/fonts/NeueHaasGroteskDisplay-Bold.woff") format("woff"), url("./assets/fonts/NeueHaasGroteskDisplay-Bold.ttf") format("truetype"), url("./assets/fonts/NeueHaasGroteskDisplay-Bold.svg#NeueHaasGroteskDisplay-Bold") format("svg");
-  font-weight: bold;
+  font-family: "DM Serif Display";
+  src: url("./assets/fonts/DMSerifDisplay-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Neue Haas Grotesk Display";
-  src: url("./assets/fonts/NeueHaasGroteskDisplay-Medium.eot");
-  src: url("./assets/fonts/NeueHaasGroteskDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/NeueHaasGroteskDisplay-Medium.woff2") format("woff2"), url("./assets/fonts/NeueHaasGroteskDisplay-Medium.woff") format("woff"), url("./assets/fonts/NeueHaasGroteskDisplay-Medium.ttf") format("truetype"), url("./assets/fonts/NeueHaasGroteskDisplay-Medium.svg#NeueHaasGroteskDisplay-Medium") format("svg");
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+/*
+ * MAPA DE CORRESPONDÊNCIA DOS MIXINS:
+ *
+ * ANTIGO           -> NOVO
+ * --------------------------------
+ * @include sequel  -> @include display
+ * @include neueregular -> @include regular
+ * @include neuebold -> @include bold
+ * @include neuemedium -> @include medium
+ */
+/* Mixins legados para compatibilidade - usar os novos para código novo */
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+  font-family: "DM Serif Display";
+  font-weight: normal;
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h1,
+.h1 {
+  font-size: 2.5rem;
+}
+
+h2,
+.h2 {
+  font-size: 2rem;
+}
+
+h3,
+.h3 {
+  font-size: 1.75rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.5rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.25rem;
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+}
+
 body {
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: normal;
   font-style: normal;
 }
 
 p {
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: normal;
   font-style: normal;
 }
@@ -10859,24 +10938,36 @@ p {
   margin-bottom: 40px;
 }
 
-h2, .h2 {
-  font-family: "Sequel100Black-45";
-  font-weight: 900;
-  font-style: normal;
-  font-size: 32px !important;
-  margin: 0;
-}
-
-h3, .h3 {
-  font-family: "Sequel100Black-45";
-  font-weight: 900;
-  font-style: normal;
-  font-size: 18px !important;
-  margin: 0;
-}
-
 .text {
   font-size: 14px;
+}
+
+.profissoes {
+  margin: 80px 0 0;
+}
+.profissoes h2, .profissoes .h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.profissoes .profissoes-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.profissoes .profissoes-list .profissao-item {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 25px;
+  border: 1px solid #397ddd;
+  color: #245ba7;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.profissoes .profissoes-list .profissao-item:hover {
+  background-color: #397ddd;
+  color: white;
 }
 
 .hero {
@@ -10884,10 +10975,24 @@ h3, .h3 {
   padding: 196px 0;
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.6;
+  z-index: 1;
 }
 .hero .box-hero {
-  color: #fff;
+  color: #245ba7;
   max-width: 324px;
+  position: relative;
+  z-index: 2;
 }
 .hero .box-hero h2, .hero .box-hero .h2 {
   font-size: 40px;
@@ -10897,6 +11002,8 @@ h3, .h3 {
 }
 .hero .row {
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 .form-hero {
@@ -10926,7 +11033,7 @@ h3, .h3 {
   text-align: center;
   margin-top: 16px;
   padding: 20px 27px;
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
@@ -10941,7 +11048,7 @@ h3, .h3 {
   margin-top: 10px;
 }
 .link-login strong {
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
 }
@@ -10962,25 +11069,39 @@ h3, .h3 {
   margin-top: 48px;
   margin-bottom: 120px;
   padding: 20px 121.4px;
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
 }
 
 .box-vantaggi {
-  border: 1px solid #A5AAAA;
+  border: 1px solid #a5aaaa;
   border-radius: 8px;
-  padding: 16px;
+  padding: 24px;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+.box-vantaggi:hover {
+  border-color: #397ddd;
+}
+.box-vantaggi img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  display: block;
 }
 .box-vantaggi .title {
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: bold;
   font-style: normal;
   font-size: 20px;
-  color: #000;
+  color: #245ba7;
+  margin-bottom: 10px;
 }
 .box-vantaggi .text {
-  color: #A5AAAA;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .call-action {
@@ -11004,12 +11125,11 @@ h3, .h3 {
   max-width: 391px;
 }
 .call-action .box-call-action .title {
-  font-family: "Sequel100Black-45";
-  font-weight: 900;
+  font-family: "DM Serif Display";
+  font-weight: normal;
   font-style: normal;
 }
 .call-action .box-call-action .text {
-  max-width: 300px;
   line-height: 30px;
 }
 
@@ -11017,7 +11137,7 @@ h3, .h3 {
   padding: 19px 101px !important;
   margin-top: 7px;
   display: inline-block;
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
 }
@@ -11035,6 +11155,18 @@ h3, .h3 {
   margin-bottom: 122px;
 }
 
+.card {
+  margin-bottom: 30px;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(57, 125, 221, 0.1);
+}
 .card .status {
   background: #fdea5b;
   border-radius: 24px;
@@ -11043,75 +11175,98 @@ h3, .h3 {
   right: 16px;
   padding: 6px 21px;
   color: #245ba7;
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: normal;
   font-style: normal;
   font-size: 12px;
   line-height: 12px;
 }
-.card .like {
-  width: 24px;
-  height: 24px;
-  background-color: #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 25px;
-  right: 25px;
-}
-.card .liked {
-  background-image: url("../../images/icon-like.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.card .unliked {
-  background-image: url("../../images/icon-unlike.png");
-  background-repeat: no-repeat;
-  background-position: center;
+.card .card-body {
+  padding: 20px;
 }
 .card .type {
   font-size: 12px;
-  color: #a5aaaa;
-  margin-bottom: 24px;
+  color: #245ba7;
+  margin-bottom: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 .card .title {
-  font-size: 16px;
+  font-size: 20px;
   color: #000;
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: bold;
   font-style: normal;
+  margin-bottom: 5px;
+}
+.card .cnpj {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
 }
 .card .adress {
   font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
 }
-.card .list-itens {
-  display: flex;
-  padding: 0;
-  list-style: none;
+.card .description {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.4;
 }
-.card .list-itens li {
-  font-size: 13px;
-  margin-right: 7px;
-  list-style: disc;
-  margin-left: 20px;
+.card .contato {
+  background-color: #f9f9f9;
+  border-top: 1px solid #eee;
+  margin: 0 -20px -20px;
+  padding: 15px 20px;
 }
-.card .list-itens li:last-child {
-  margin-right: 0;
-}
-.card .list-itens li:first-child {
-  list-style: none;
-  margin-left: 0;
-}
-.card .list-group-flush {
-  list-style: none;
-  padding: 15px;
-  margin: 0;
-}
-.card .list-group-flush li {
-  padding: 0;
-  font-family: "Neue Haas Grotesk Display";
+.card .contato .title-contato {
+  color: #245ba7;
+  font-size: 16px;
+  font-family: "Roboto";
   font-weight: bold;
   font-style: normal;
-  font-size: 18px;
+  margin-bottom: 16px;
+  position: relative;
+}
+.card .contato .title-contato:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background-color: #397ddd;
+}
+.card .contato .contato-info {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0;
+  margin: 0;
+}
+.card .contato .contato-info li {
+  list-style: none;
+}
+.card .contato .contato-info .phone {
+  display: flex;
+  align-items: center;
+}
+.card .contato .contato-info .phone .whatsapp-icon {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card .contato .contato-info .phone .whatsapp-icon img {
+  width: 24px;
+  height: 24px;
+}
+.card .contato .contato-info .email {
+  color: #666;
+  font-size: 14px;
 }
 
 .link-card {
@@ -11179,7 +11334,7 @@ h3, .h3 {
 
 header {
   padding: 20px 0;
-  border-bottom: 1px solid #DCE1E6;
+  border-bottom: 1px solid #dce1e6;
 }
 header .button-orange {
   border: 1px solid #245ba7;
@@ -11199,21 +11354,21 @@ header .button-orange {
 }
 .navbar .nav a {
   text-decoration: none;
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
   font-size: 14px;
 }
 .navbar .button-orange {
   padding: 11px 27px;
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: bold;
   font-style: normal;
   font-size: 14px;
 }
 .navbar .button-transparent {
   padding: 10px 27px;
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
   font-size: 14px;
@@ -11240,7 +11395,7 @@ footer a {
   background-color: #fff;
   border-radius: 8px;
   padding: 12px 32px;
-  color: #428bc1;
+  color: #245ba7;
   position: absolute;
   margin-top: 20px;
   display: flex;
@@ -11287,7 +11442,7 @@ footer ul {
 
 .menu-footer a {
   text-decoration: none;
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
 }
@@ -11308,7 +11463,7 @@ footer ul {
 .list-copy li {
   color: #fff;
   margin-right: 1rem;
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
   font-size: 14px;
@@ -11332,10 +11487,10 @@ footer ul {
 }
 
 .btn-veddimappa {
-  border: 1px solid #A5AAAA;
+  border: 1px solid #a5aaaa;
   border-radius: 4px;
   padding: 15px 18px;
-  color: #A5AAAA;
+  color: #a5aaaa;
   display: inline-block;
   float: right;
   text-decoration: none;
@@ -11354,7 +11509,7 @@ footer ul {
   display: inline-block;
 }
 .add-filter li a {
-  border: 1px solid #A5AAAA;
+  border: 1px solid #a5aaaa;
   border-radius: 48px;
   padding: 11px 50px;
   color: #000;
@@ -11378,7 +11533,7 @@ footer ul {
 .tag-filter {
   border-radius: 48px;
   padding: 8px 16px;
-  background-color: #DBF8F1;
+  background-color: #dbf8f1;
 }
 
 .ordena-house {
@@ -11406,7 +11561,7 @@ footer ul {
 }
 
 .modal h2, .modal .h2 {
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
   font-size: 16px !important;
@@ -11446,8 +11601,8 @@ footer ul {
 .modal-shedule .schedule h3, .modal-shedule .schedule .h3 {
   text-align: center;
   margin-bottom: 5px;
-  font-family: "Sequel100Black-45";
-  font-weight: 900;
+  font-family: "DM Serif Display";
+  font-weight: normal;
   font-style: normal;
 }
 .modal-shedule .dropdown-toggle {
@@ -11561,14 +11716,14 @@ footer ul {
 .content-imovel h2, .content-imovel .h2 {
   margin-bottom: 25px;
   font-size: 24px !important;
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
 }
 .content-imovel h3, .content-imovel .h3 {
   margin-top: 16px;
   margin-bottom: 25px;
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
 }
@@ -11762,7 +11917,7 @@ footer ul {
   padding: 43px 0;
 }
 .section-faq h2, .section-faq .h2, .section-faq h3, .section-faq .h3, .section-faq .accordion-button {
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
 }
@@ -11818,7 +11973,7 @@ footer ul {
 }
 
 .section-funziona h2, .section-funziona .h2, h3, .h3 {
-  font-family: "Neue Haas Grotesk Display";
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
 }

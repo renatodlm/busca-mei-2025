@@ -1,22 +1,69 @@
-@mixin sequel {
-  font-family: 'Sequel100Black-45';
-  font-weight: 900;
-  font-style: normal;
-}
+/*
+ * MAPA DE CORRESPONDÊNCIA DOS MIXINS:
+ *
+ * ANTIGO           -> NOVO
+ * --------------------------------
+ * @include sequel  -> @include display
+ * @include neueregular -> @include regular
+ * @include neuebold -> @include bold
+ * @include neuemedium -> @include medium
+ */
 
-@mixin neueregular {
-  font-family: 'Neue Haas Grotesk Display';
+@mixin display {
+  font-family: "DM Serif Display";
   font-weight: normal;
   font-style: normal;
 }
-@mixin neuebold {
-  font-family: 'Neue Haas Grotesk Display';
+
+@mixin display-italic {
+  font-family: "DM Serif Display";
+  font-weight: normal;
+  font-style: italic;
+}
+
+@mixin regular {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin medium {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin semibold {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-style: normal;
+}
+
+@mixin light {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+}
+
+@mixin bold {
+  font-family: "Roboto";
   font-weight: bold;
   font-style: normal;
 }
 
+/* Mixins legados para compatibilidade - usar os novos para código novo */
+@mixin sequel {
+  @include display;
+}
+
+@mixin neueregular {
+  @include regular;
+}
+
+@mixin neuebold {
+  @include bold;
+}
+
 @mixin neuemedium {
-  font-family: 'Neue Haas Grotesk Display';
-  font-weight: 500;
-  font-style: normal;
+  @include medium;
 }

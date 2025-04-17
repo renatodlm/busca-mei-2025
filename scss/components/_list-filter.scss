@@ -5,16 +5,14 @@
   margin-right: 20px;
   display: inline-block;
   li {
-
-    
-    a { 
-      border: 1px solid #A5AAAA;
+    a {
+      border: 1px solid #a5aaaa;
       border-radius: 48px;
       padding: 11px 50px;
       color: #000;
       &:hover {
-        color: $orange;
-        border: 1px solid $orange;
+        color: $blue;
+        border: 1px solid $blue;
       }
     }
   }
@@ -23,7 +21,7 @@
 .list-filter {
   padding: 0;
   list-style: none;
-  li{
+  li {
     word-wrap: unset;
     float: left;
     margin-right: 10px;
@@ -31,9 +29,8 @@
   }
 }
 
-
 .tag-filter {
   border-radius: 48px;
   padding: 8px 16px;
-  background-color: #DBF8F1;
+  background-color: #dbf8f1;
 }

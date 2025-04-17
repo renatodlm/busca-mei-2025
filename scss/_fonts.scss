@@ -1,52 +1,55 @@
 @font-face {
-  font-family: 'Sequel100Black-45';
-  src: url('./assets/fonts/Sequel100Black-45.eot');
-  src: url('./assets/fonts/Sequel100Black-45.eot?#iefix') format('embedded-opentype'),
-      url('./assets/fonts/Sequel100Black-45.woff2') format('woff2'),
-      url('./assets/fonts/Sequel100Black-45.woff') format('woff'),
-      url('./assets/fonts/Sequel100Black-45.ttf') format('truetype'),
-      url('./assets/fonts/Sequel100Black-45.svg#Sequel100Black-45') format('svg');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Neue Haas Grotesk Display';
-  src: url('./assets/fonts/NeueHaasGroteskDisplay-Reg.eot');
-  src: url('./assets/fonts/NeueHaasGroteskDisplay-Reg.eot?#iefix') format('embedded-opentype'),
-      url('./assets/fonts/NeueHaasGroteskDisplay-Reg.woff2') format('woff2'),
-      url('./assets/fonts/NeueHaasGroteskDisplay-Reg.woff') format('woff'),
-      url('./assets/fonts/NeueHaasGroteskDisplay-Reg.ttf') format('truetype'),
-      url('./assets/fonts/NeueHaasGroteskDisplay-Reg.svg#NeueHaasGroteskDisplay-Reg') format('svg');
+  font-family: "DM Serif Display";
+  src: url("./assets/fonts/DMSerifDisplay-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Neue Haas Grotesk Display';
-  src: url('./assets/fonts/NeueHaasGroteskDisplay-Bold.eot');
-  src: url('./assets/fonts/NeueHaasGroteskDisplay-Bold.eot?#iefix') format('embedded-opentype'),
-      url('./assets/fonts/NeueHaasGroteskDisplay-Bold.woff2') format('woff2'),
-      url('./assets/fonts/NeueHaasGroteskDisplay-Bold.woff') format('woff'),
-      url('./assets/fonts/NeueHaasGroteskDisplay-Bold.ttf') format('truetype'),
-      url('./assets/fonts/NeueHaasGroteskDisplay-Bold.svg#NeueHaasGroteskDisplay-Bold') format('svg');
-  font-weight: bold;
+  font-family: "DM Serif Display";
+  src: url("./assets/fonts/DMSerifDisplay-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Neue Haas Grotesk Display';
-  src: url('./assets/fonts/NeueHaasGroteskDisplay-Medium.eot');
-  src: url('./assets/fonts/NeueHaasGroteskDisplay-Medium.eot?#iefix') format('embedded-opentype'),
-      url('./assets/fonts/NeueHaasGroteskDisplay-Medium.woff2') format('woff2'),
-      url('./assets/fonts/NeueHaasGroteskDisplay-Medium.woff') format('woff'),
-      url('./assets/fonts/NeueHaasGroteskDisplay-Medium.ttf') format('truetype'),
-      url('./assets/fonts/NeueHaasGroteskDisplay-Medium.svg#NeueHaasGroteskDisplay-Medium') format('svg');
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

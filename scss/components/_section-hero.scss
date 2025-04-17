@@ -3,10 +3,25 @@
   padding: 196px 0;
   background-size: cover;
   background-position: center;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $white;
+    opacity: 0.6;
+    z-index: 1;
+  }
 
   .box-hero {
-    color: $white;
+    color: $blue;
     max-width: 324px;
+    position: relative;
+    z-index: 2;
 
     h2 {
       font-size: 40px;
@@ -19,5 +34,7 @@
 
   .row {
     align-items: center;
+    position: relative;
+    z-index: 2;
   }
 }

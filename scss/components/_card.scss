@@ -1,4 +1,16 @@
 .card {
+  margin-bottom: 30px;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(57, 125, 221, 0.1);
+  }
+
   .status {
     background: $yellow;
     border-radius: 24px;
@@ -6,75 +18,111 @@
     top: 16px;
     right: 16px;
     padding: 6px 21px;
-    color: $orange;
-    @include neueregular;
+    color: $blue;
+    @include regular;
     font-size: 12px;
     line-height: 12px;
   }
-  .like {
-    width: 24px;
-    height: 24px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    top: 25px;
-    right: 25px;
-  }
-  .liked {
-    background-image: url("../../images/icon-like.png");
-    background-repeat: no-repeat;
-    background-position: center;
+
+  .card-body {
+    padding: 20px;
   }
 
-  .unliked {
-    background-image: url("../../images/icon-unlike.png");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
   .type {
     font-size: 12px;
-    color: #a5aaaa;
-    margin-bottom: 24px;
+    color: $blue;
+    margin-bottom: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
   }
+
   .title {
-    font-size: 16px;
+    font-size: 20px;
     color: #000;
-    @include neuebold;
+    @include bold;
+    margin-bottom: 5px;
   }
+
+  .cnpj {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+
   .adress {
     font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
   }
-  .list-itens {
-    display: flex;
-    padding: 0;
-    list-style: none;
-    li {
-      font-size: 13px;
-      margin-right: 7px;
-      list-style: disc;
-      margin-left: 20px;
-    }
-    li:last-child {
-      margin-right: 0;
-    }
-    li:first-child {
-      list-style: none;
-      margin-left: 0;
-    }
+
+  .description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.4;
   }
-  .list-group-flush {
-    list-style: none;
-    padding: 15px;
-    margin: 0;
-  }
-  .list-group-flush {
-    li {
+
+  .contato {
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    margin: 0 -20px -20px;
+    padding: 15px 20px;
+
+    .title-contato {
+      color: $blue;
+      font-size: 16px;
+      @include bold;
+      margin-bottom: 16px;
+      position: relative;
+
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 50px;
+        height: 2px;
+        background-color: $mantra;
+      }
+    }
+
+    .contato-info {
+      margin-top: 6px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
       padding: 0;
-      @include neuebold;
-      font-size: 18px;
+      margin: 0;
+
+      li {
+        list-style: none;
+      }
+
+      .phone {
+        display: flex;
+        align-items: center;
+
+        .whatsapp-icon {
+          margin-left: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+
+      .email {
+        color: #666;
+        font-size: 14px;
+      }
     }
   }
 }
+
 .link-card {
   text-decoration: none;
   color: #000;

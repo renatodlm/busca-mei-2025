@@ -6,10 +6,10 @@
 
 header {
   padding: 20px 0;
-  border-bottom: 1px solid #DCE1E6;
+  border-bottom: 1px solid #dce1e6;
 
   .button-orange {
-    border: 1px solid $orange;
+    border: 1px solid $blue;
   }
 }
 .navbar {
@@ -22,8 +22,8 @@ header {
   margin-left: auto;
   .nav {
     margin: 0;
-    
-    a{
+
+    a {
       text-decoration: none;
       @include neuemedium;
       font-size: 14px;
