@@ -1,0 +1,59 @@
+.section-faq {
+  padding: 43px 0;
+
+  h2, h3, .accordion-button {
+    @include neuemedium;
+  }
+}
+
+.accodion-faq {
+  .accordion-item {
+    border: 0!important;
+    border-bottom: 2px solid #DCE1E6 !important;
+  }
+  .accordion-button {
+    padding: 1.7rem 0;
+    margin-top: 1px;
+  }
+  .accordion-body {
+    padding: 1rem 0rem;
+  }
+  .accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #fff;
+  }
+  .accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none !important;
+  }
+  .accordion-item:last-of-type {
+    margin-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
+
+.btn-download {
+  width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 27px;
+    border: 2px solid $mantra;
+    border-radius: 48px;
+  
+    color: $mantra;
+    text-decoration: none;
+    max-width: 177px;
+
+    &:hover {
+      color: $mantra;
+    }
+
+    img {
+      margin-right: 10px;
+    }
+ 
+}

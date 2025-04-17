@@ -1,0 +1,106 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "variables";
+
+@import "fonts";
+@import "fonts-mixin";
+
+body {
+  @include neueregular;
+}
+
+p {
+  @include neueregular;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1133px;
+  }
+}
+.container-fluid {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.align-center {
+  align-items: center;
+}
+
+.bt-row {
+  margin-bottom: 40px;
+}
+
+h2 {
+  @include sequel;
+  font-size: 32px !important;
+  margin: 0;
+}
+
+h3 {
+  @include sequel;
+  font-size: 18px !important;
+  margin: 0;
+}
+
+.text {
+  font-size: 14px;
+}
+
+//HOME
+
+//-->SECTION HERO
+
+@import "components/section-hero";
+@import "components/form-hero";
+
+//-->SECTION VANTAGGI
+@import "components/section-vantaggi";
+@import "components/box-vantaggi";
+
+//-->SECTION CALL ACTION
+@import "components/section-call-action";
+@import "components/box-call-action";
+
+//-->SECTION CARD
+@import "components/section-rent";
+@import "components/card";
+
+@import "header";
+@import "footer";
+
+//Cerca casa
+
+//-->SECTION SEARCH BAR
+@import "components/section-searchbar";
+@import "components/input-searchbar";
+@import "components/btn-veddimappa";
+
+@import "components/list-filter";
+
+@import "components/section-headerhouses";
+
+//Modal
+
+//-->SECTION SEARCH BAR
+@import "components/modal";
+
+@import "components/section-interna-imovel";
+@import "components/resume";
+@import "components/tag-available";
+@import "components/checklist";
+@import "components/card-visit";
+
+@import "components/section-faq";
+
+@import "components/section-funziona";
+@import "components/tabs";
+@import "components/expand-text";
+@import "components/carousel";
+
+@import "components/section-login";
+@import "components/login";
+@import "components/buttom-gray";

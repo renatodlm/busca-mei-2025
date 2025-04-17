@@ -1,0 +1,44 @@
+
+.call-action {
+  margin-bottom: 122px;
+
+  .row {
+    max-width: 943px;
+    margin: 0 auto;
+
+    img {
+      max-width: 508px;
+    }
+
+    span{
+      display: block;
+    }
+
+    p{
+      line-height: 40px;
+    }
+  }
+
+ 
+
+  .box-call-action {
+    max-width: 391px;
+
+    .title {
+      @include sequel;
+    }
+    .text {
+      max-width: 300px;
+      line-height: 30px;
+    }
+
+ 
+  }
+}
+
+.btn-cta {
+  padding: 19px 101px!important;
+  margin-top: 7px;
+  display: inline-block;
+  @include neuemedium;
+}

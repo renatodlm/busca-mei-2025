@@ -1,0 +1,90 @@
+.card {
+  .status {
+    background: $white;
+    border-radius: 24px;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    padding: 6px 21px;
+    color: $orange;
+    @include neueregular;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .like {
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+ 
+  }
+  .liked {
+    background-image: url('images/icon-like.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .unliked {
+    background-image: url('images/icon-unlike.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .type {
+    font-size: 12px;
+    color: #A5AAAA;
+  }
+  .title {
+    font-size: 16px;
+    color: #000;
+    @include neuebold;
+  }
+  .adress {
+    font-size: 14px;
+  }
+  .list-itens {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    li {
+      font-size: 13px;
+      margin-right: 7px;
+      list-style: disc;
+      margin-left: 20px;
+      
+    }
+    li:last-child {
+      margin-right: 0;
+      
+    }
+    li:first-child {
+      list-style: none;
+      margin-left: 0;
+      
+    }
+ 
+  }
+  .list-group-flush {
+    list-style: none;
+    padding: 15px ;
+    margin: 0;
+  }
+  .list-group-flush {
+    li {
+      padding: 0;
+      @include neuebold;
+      font-size: 18px;
+    }
+  }
+}
+.link-card {
+  text-decoration: none;
+  color: #000;
+
+
+  &:hover {
+    color: #000;
+  }
+}

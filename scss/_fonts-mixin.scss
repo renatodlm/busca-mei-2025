@@ -1,0 +1,22 @@
+@mixin sequel {
+  font-family: 'Sequel100Black-45';
+  font-weight: 900;
+  font-style: normal;
+}
+
+@mixin neueregular {
+  font-family: 'Neue Haas Grotesk Display';
+  font-weight: normal;
+  font-style: normal;
+}
+@mixin neuebold {
+  font-family: 'Neue Haas Grotesk Display';
+  font-weight: bold;
+  font-style: normal;
+}
+
+@mixin neuemedium {
+  font-family: 'Neue Haas Grotesk Display';
+  font-weight: 500;
+  font-style: normal;
+}

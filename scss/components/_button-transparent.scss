@@ -1,0 +1,14 @@
+.button-transparent {
+  justify-content: center;
+  align-items: center;
+  padding: 14px 27px;
+  border: 2px solid $mantra;
+  border-radius: 8px;
+
+  color: $mantra;
+  text-decoration: none;
+  line-height: 16px;
+  &:hover {
+    color: $mantra;
+  }
+}

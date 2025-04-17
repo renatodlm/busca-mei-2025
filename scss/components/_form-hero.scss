@@ -1,0 +1,43 @@
+.form-hero {
+  background-color: $white;
+  border-radius: 8px;
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  max-width: 410px;
+  margin-left: auto;
+  input {
+    border-radius: 4px;
+    border: 1px solid #A5AAAA;
+    padding: 11px;
+    &::placeholder {
+      color: #DCE1E6;
+    
+    }
+  }
+  .button-orange  {
+    text-align: center;
+    margin-top: 16px;
+    padding: 20px 27px;
+    @include neuemedium;
+    font-size: 16px;
+  }
+
+
+}
+
+.link-login {
+  display: block;
+  max-width: 410px;
+  margin-left: auto;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+  strong {
+    @include neuemedium
+  }
+
+  &:hover {
+    color: #fff;
+  }
+}

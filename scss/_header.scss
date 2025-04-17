@@ -1,0 +1,48 @@
+@import "components/menu";
+
+@import "components/button-orange";
+@import "components/button-transparent";
+@import "components/language";
+
+header {
+  padding: 20px 0;
+  border-bottom: 1px solid #DCE1E6;
+
+  .button-orange {
+    border: 1px solid $orange;
+  }
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  max-width: 688px;
+  justify-content: space-between;
+  margin-left: auto;
+  .nav {
+    margin: 0;
+    
+    a{
+      text-decoration: none;
+      @include neuemedium;
+      font-size: 14px;
+    }
+  }
+  .button-orange {
+    padding: 11px 27px;
+    @include neuebold;
+    font-size: 14px;
+  }
+
+  .button-transparent {
+    padding: 10px 27px;
+    @include neuemedium;
+    font-size: 14px;
+  }
+}
+
+.logo {
+  position: absolute;
+  margin-top: -2px;
+}

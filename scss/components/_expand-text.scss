@@ -1,0 +1,53 @@
+// Prettify for CodePen
+.expand-button {
+  cursor: pointer;
+  display: flex;
+  margin-top: 1rem;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+
+  color: $mantra;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  
+  &:hover, &:active, &:focus {
+    
+  }
+  span {
+    width: 9.4px;
+    height: 5.0px;
+    background: url(images/icon-expand.png);
+    display: block;
+    margin-left: 5px;
+    transition: all 1s ease-out;
+  }
+}
+
+// Okay legit CSS now
+.special-text {
+  position: relative;
+  max-height: 100px;
+  overflow: hidden;
+  transition: max-height 1s ease;
+  
+  &.-expanded {
+    max-height: 100vh;
+  }
+
+  &.-expanded + .expand-button span{
+    transform: rotate(180deg);
+  }
+}
+
+.special-text:not(.-expanded)::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}

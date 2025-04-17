@@ -1,0 +1,32 @@
+.tag-available {
+
+  ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  li{
+    padding: 16px;
+    border: 1px solid #DCE1E6;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+
+    a {
+      color: #000;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.not-available {
+  font-size: 16px;
+  line-height: 20px;
+
+  text-decoration-line: line-through;
+
+  color: #A5AAAA;
+}

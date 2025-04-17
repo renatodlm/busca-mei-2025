@@ -1,0 +1,14 @@
+.button-gray {
+  justify-content: center;
+  align-items: center;
+  padding: 14px 27px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #A5AAAA;
+  color: #A5AAAA;
+  text-decoration: none;
+  line-height: 16px;
+  &:hover {
+    color: #A5AAAA;
+  }
+}

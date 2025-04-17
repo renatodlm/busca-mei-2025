@@ -1,0 +1,98 @@
+
+
+.card-visist {
+  border: 1px solid #DCE1E6;
+  background-color: $white;
+  padding: 32px 23px;
+  border-radius: 8px;
+  margin-top: -78px;
+  .header-profile {
+    display: flex;
+    border-bottom: 1px solid #DCE1E6;
+    padding-bottom: 29px;
+
+
+
+    p {
+      margin: 0;
+    }
+  }
+  .card-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    text-align: center;
+    padding: 10px 0;
+    border: 0;
+    
+
+    a {
+      margin-bottom: 10px;
+    }
+
+  }
+}
+.name {
+  font-size: 24px;
+}
+.bio {
+  font-size: 14px;
+}
+
+.mensal {
+  font-size: 16px;
+  color: #A5AAAA;
+  padding: 20px 0 0 0;
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.total {
+  font-size: 16px;
+  color: #000;
+  border-bottom: 1px solid #DCE1E6;
+  padding: 20px 0;
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.img-profile {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.schedule {
+  margin-top: 23px;
+  margin-bottom: 16px;
+  ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: space-between;
+
+  }
+
+  li {
+
+    border: 1px solid #DCE1E6;
+    border-radius: 4px;
+    text-align: center;
+    padding: 23px 19px;
+    color: #A5AAAA;
+    span {
+      display: block;
+    }
+  }
+}

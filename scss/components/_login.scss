@@ -1,0 +1,35 @@
+.login {
+  padding: 54px 46px;
+  max-width: 480px;
+  margin: 0 auto;
+  border: 1px solid #DCE1E6;
+  border-radius: 8px;
+}
+.btn-google {
+  display: flex;
+  text-align: center;
+  background-color: #DCE1E6;
+  border-radius: 8px;
+  color: #000;
+  padding: 14px 107px;
+  text-decoration: none;
+  &:hover {
+    color: #000;
+  }
+  img {
+    margin-right: 10px;
+  }
+}
+.submit {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.btn-forget {
+  color: $mantra;
+  text-align: center;
+  display: block;
+  &:hover {
+    color: $mantra;
+  }
+}

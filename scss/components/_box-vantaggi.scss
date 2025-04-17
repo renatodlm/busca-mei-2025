@@ -1,0 +1,14 @@
+.box-vantaggi {
+  border: 1px solid #A5AAAA;
+  border-radius: 8px;
+  padding: 16px;
+
+  .title {
+    @include neuebold;
+    font-size: 20px;
+    color: #000;
+  }
+  .text{
+    color: #A5AAAA;
+  }
+}

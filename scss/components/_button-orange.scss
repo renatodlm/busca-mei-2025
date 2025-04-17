@@ -1,0 +1,14 @@
+.button-orange {
+  justify-content: center;
+  align-items: center;
+  padding: 14px 27px;
+  background: #fdea5b;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 16px;
+
+  &:hover {
+    color: #fff;
+  }
+}

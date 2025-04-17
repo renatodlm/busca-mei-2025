@@ -1,0 +1,63 @@
+.carousel-card {
+  .owl-stage-outer {
+    padding: 0!important;
+    margin-left: 10px!important;
+  }
+  .owl-nav {
+    display: none;
+  }
+  .owl-dots {
+    margin-top: 15px;
+  }
+}
+
+
+
+.schedule{
+  .owl-item {
+    margin-right: 19px!important;
+  }
+  .owl-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+   
+  }
+  .owl-prev, .owl-next {
+    width: 32px;
+    height: 32px;
+    background-color: #F4F5F6!important;
+    border-radius: 50%;
+  }
+  .owl-prev {
+    left: -16px;
+    position: absolute;
+    z-index: 99999;
+    top: 35px;
+  }
+  .owl-next {
+    right: -16px;
+    position: absolute;
+    z-index: 99999;
+    top: 35px;
+  }
+
+  &--pop {
+    li {
+      border: 1px solid #DCE1E6;
+      border-radius: 4px;
+      text-align: center;
+      padding: 23px 0; 
+      color: #A5AAAA;
+    }
+  }
+  &--hours {
+    .owl-prev {
+      top: 0;
+    }
+    .owl-next {
+      top: 0;
+    }
+  }
+}

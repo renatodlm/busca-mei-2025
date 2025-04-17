@@ -1,0 +1,64 @@
+@import "components/title-footer";
+@import "components/links-footer";
+@import "components/btn-social";
+
+
+.section-footer {
+  padding-top: 49px;
+  padding-bottom: 47px;
+  background-color: #F4F5F6;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.navigation-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-copyright{
+  background-color: #F4F5F6;
+  ul {
+    display: flex;
+  }
+}
+
+.navigation-contact {
+  padding-left: auto;
+  float: right;
+}
+
+.menu-footer {
+  a {
+    text-decoration: none;
+    @include neuemedium;
+    &:hover {
+      color: $orange;
+    }
+  }
+}
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  li {
+    text-align: right;
+    margin-left: 34px;
+  }
+}
+
+.list-copy {
+  li {
+    color: #A5AAAA;
+    margin-right: 1rem;
+    @include neuemedium;
+    font-size: 14px;
+  }
+}
+
+.mailto {
+  text-decoration: underline!important;
+}

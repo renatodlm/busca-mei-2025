@@ -1,0 +1,147 @@
+.row-modal {
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #DCE1E6;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+.modal h2{
+  @include neuemedium;
+  font-size: 16px!important;
+}
+.modal-content h3 {
+  margin-bottom: 8px;
+}
+.line {
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #DCE1E6;
+}
+.modal-filtra {
+  max-width: 660px;
+}
+.modal-shedule {
+  max-width: 892px;
+  .card {
+    width: 350px;
+    margin-left: auto;
+  }
+
+  .schedule {
+    max-width: 464px;
+    margin: 20px auto 0 auto;
+
+    li {
+      margin-right: 5px;
+
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+    h3 {
+      text-align: center;
+      margin-bottom: 5px;
+      @include sequel;
+    }
+
+
+  }
+  .dropdown-toggle {
+    white-space: nowrap;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+  }
+  .hours li {
+   
+    padding: 3px 19px;
+  
+  }
+  .modal-footer {
+    justify-content: space-between;
+  }
+}
+
+.row-shedule {
+  display: flex;
+}
+
+.modal-header {
+  background-color: #F4F5F6;
+}
+
+
+.title {
+  font-size: 16px;
+}
+
+.group-form {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+
+  li{
+    max-width: 200px;
+    margin-right: 16px;
+    &:last-child {
+      margin-right: 0;
+    }
+    input {
+      width: 100%;
+      border-radius: 4px;
+      border: 1px solid #A5AAAA;
+      padding: 11px 5px;
+    }
+  }
+}
+
+.btn-filtra {
+  border-radius: 48px;
+  background-color: $white;
+  color: #000;
+  border: 1px solid #A5AAAA;
+  padding: 3px 24px;
+}
+
+.btn-check:focus + .btn {
+  background-color: #23A587;
+  color: $white;
+  box-shadow: none;
+}
+
+.btn-check:checked + .btn {
+  background-color: #23A587;
+  color: $white;
+  box-shadow: none;
+}
+
+.form-check-input:checked {
+  background-color: #49a587;
+  border-color: #49a587;
+}
+
+.link {
+  color: #23A587;
+}
+
+.modal-schedule {
+  .modal-body{
+    padding-bottom: 30px;
+  
+  }
+  .btn-social {
+    background-color: #F4F5F6;
+    display: block;
+    border-radius: 8px;
+    margin-top: 24px;
+    text-decoration: none;
+    
+  }
+}

@@ -1,0 +1,25 @@
+.hero {
+  background-image: url('images/hero.png');
+  padding: 196px 0;
+  background-size: cover;
+  background-position: center;
+
+  .box-hero {
+    color: $white;
+    max-width: 324px;
+
+    h2 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 24px;
+    }
+  }
+
+  .row {
+    align-items: center;
+  }
+  
+}
+
