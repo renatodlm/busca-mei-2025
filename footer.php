@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-7">
                     <div class="navigation-footer">
-                        <a href="index.php"><img src="images/logotipo-footer.png" alt="buscamei"></a>
+                        <a href="index.php"><img src="images/logotipo-footer.svg" alt="buscamei"></a>
                         <div class="navbar-footer">
                             <h3 class="title-footer">Trova</h3>
                             <ul class="menu-footer">
@@ -52,9 +52,9 @@
                 </div>
                 <div class="col-6">
                     <ul class="social-media">
-                        <li><img src="images/icon-facebook.png" alt=""></li>
-                        <li><img src="images/icon-instagram.png" alt=""></li>
-                        <li><img src="images/icon-twitter.png" alt=""></li>
+                        <li><img src="images/icon-facebook.svg" alt=""></li>
+                        <li><img src="images/icon-instagram.svg" alt=""></li>
+                        <li><img src="images/icon-linkedin.svg" alt=""></li>
                     </ul>
                 </div>
             </div>

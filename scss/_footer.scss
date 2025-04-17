@@ -2,11 +2,10 @@
 @import "components/links-footer";
 @import "components/btn-social";
 
-
 .section-footer {
   padding-top: 49px;
   padding-bottom: 47px;
-  background-color: #F4F5F6;
+  background-color: $light-blue;
 }
 
 footer ul {
@@ -19,8 +18,12 @@ footer ul {
   justify-content: space-between;
 }
 
-.section-copyright{
-  background-color: #F4F5F6;
+.section-copyright {
+  hr {
+    border-color: $white;
+  }
+  color: $white;
+  background-color: $light-blue;
   ul {
     display: flex;
   }
@@ -44,6 +47,8 @@ footer ul {
 .social-media {
   display: flex;
   justify-content: flex-end;
+  color: $white;
+
   li {
     text-align: right;
     margin-left: 34px;
@@ -52,7 +57,7 @@ footer ul {
 
 .list-copy {
   li {
-    color: #A5AAAA;
+    color: $white;
     margin-right: 1rem;
     @include neuemedium;
     font-size: 14px;
@@ -60,5 +65,5 @@ footer ul {
 }
 
 .mailto {
-  text-decoration: underline!important;
+  text-decoration: underline !important;
 }

@@ -10905,22 +10905,22 @@ h3, .h3 {
   display: flex;
   padding: 24px;
   flex-direction: column;
-  max-width: 410px;
+  width: 100%;
   margin-left: auto;
 }
 .form-hero input {
   border-radius: 4px;
-  border: 1px solid #A5AAAA;
+  border: 1px solid #a5aaaa;
   padding: 11px;
 }
 .form-hero input::-moz-placeholder {
-  color: #DCE1E6;
+  color: #dce1e6;
 }
 .form-hero input:-ms-input-placeholder {
-  color: #DCE1E6;
+  color: #dce1e6;
 }
 .form-hero input::placeholder {
-  color: #DCE1E6;
+  color: #dce1e6;
 }
 .form-hero .button-orange {
   text-align: center;
@@ -10992,6 +10992,7 @@ h3, .h3 {
 }
 .call-action .row img {
   max-width: 508px;
+  max-height: 508px;
 }
 .call-action .row span {
   display: block;
@@ -11035,11 +11036,11 @@ h3, .h3 {
 }
 
 .card .status {
-  background: #fff;
+  background: #fdea5b;
   border-radius: 24px;
   position: absolute;
-  top: 24px;
-  left: 24px;
+  top: 16px;
+  right: 16px;
   padding: 6px 21px;
   color: #245ba7;
   font-family: "Neue Haas Grotesk Display";
@@ -11070,6 +11071,7 @@ h3, .h3 {
 .card .type {
   font-size: 12px;
   color: #a5aaaa;
+  margin-bottom: 24px;
 }
 .card .title {
   font-size: 16px;
@@ -11223,13 +11225,14 @@ header .button-orange {
 }
 
 .title-footer {
-  color: #397ddd;
+  color: #fdea5b;
   font-size: 16px;
   margin-bottom: 9px;
+  font-weight: 600;
 }
 
 footer a {
-  color: #a5aaaa;
+  color: #fff;
   font-size: 14px;
 }
 
@@ -11253,7 +11256,7 @@ footer a {
 .section-footer {
   padding-top: 49px;
   padding-bottom: 47px;
-  background-color: #F4F5F6;
+  background-color: #428bc1;
 }
 
 footer ul {
@@ -11267,7 +11270,11 @@ footer ul {
 }
 
 .section-copyright {
-  background-color: #F4F5F6;
+  color: #fff;
+  background-color: #428bc1;
+}
+.section-copyright hr {
+  border-color: #fff;
 }
 .section-copyright ul {
   display: flex;
@@ -11291,6 +11298,7 @@ footer ul {
 .social-media {
   display: flex;
   justify-content: flex-end;
+  color: #fff;
 }
 .social-media li {
   text-align: right;
@@ -11298,7 +11306,7 @@ footer ul {
 }
 
 .list-copy li {
-  color: #A5AAAA;
+  color: #fff;
   margin-right: 1rem;
   font-family: "Neue Haas Grotesk Display";
   font-weight: 500;

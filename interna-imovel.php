@@ -176,7 +176,6 @@
                 <div class="card">
                     <div class="status">disponibile subito</div>
                     <div class="like liked"></div>
-                    <img class="card-img-top" src="images/house.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="type">Card title</h5>
                         <p class="title">Bilocale Completamente Arredato</p>
@@ -197,7 +196,7 @@
                 <div class="card">
                     <div class="status">disponibile subito</div>
                     <div class="like unliked"></div>
-                    <img class="card-img-top" src="images/house.png" alt="Card image cap">
+
                     <div class="card-body">
                         <h5 class="type">Card title</h5>
                         <p class="title">Bilocale Completamente Arredato</p>
@@ -218,7 +217,7 @@
                 <div class="card">
                     <div class="status">disponibile subito</div>
                     <div class="like unliked"></div>
-                    <img class="card-img-top" src="images/house.png" alt="Card image cap">
+
                     <div class="card-body">
                         <h5 class="type">Card title</h5>
                         <p class="title">Bilocale Completamente Arredato</p>
@@ -240,7 +239,7 @@
                 <div class="card">
                     <div class="status">disponibile subito</div>
                     <div class="like unliked"></div>
-                    <img class="card-img-top" src="images/house.png" alt="Card image cap">
+
                     <div class="card-body">
                         <h5 class="type">Card title</h5>
                         <p class="title">Bilocale Completamente Arredato</p>
@@ -262,7 +261,7 @@
                 <div class="card">
                     <div class="status">disponibile subito</div>
                     <div class="like unliked"></div>
-                    <img class="card-img-top" src="images/house.png" alt="Card image cap">
+
                     <div class="card-body">
                         <h5 class="type">Card title</h5>
                         <p class="title">Bilocale Completamente Arredato</p>
@@ -284,7 +283,7 @@
                 <div class="card">
                     <div class="status">disponibile subito</div>
                     <div class="like unliked"></div>
-                    <img class="card-img-top" src="images/house.png" alt="Card image cap">
+
                     <div class="card-body">
                         <h5 class="type">Card title</h5>
                         <p class="title">Bilocale Completamente Arredato</p>
@@ -416,7 +415,7 @@
                         <div class="card">
                             <div class="status">disponibile subito</div>
                             <div class="like unliked"></div>
-                            <img class="card-img-top" src="images/house.png" alt="Card image cap">
+
                             <div class="card-body">
                                 <h5 class="type">Card title</h5>
                                 <p class="title">Bilocale Completamente Arredato</p>

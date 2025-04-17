@@ -39,7 +39,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-4">
-                    <a href="index.php"><img src="images/logotipo.png" class="logo" alt="buscamei"></a>
+                    <a href="index.php"><img src="images/logotipo.svg" class="logo" alt="buscamei"></a>
                 </div>
                 <div class="col-8">
 
