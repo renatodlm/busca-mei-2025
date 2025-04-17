@@ -7,7 +7,7 @@ const autoprefixer = require("gulp-autoprefixer");
 const plumber = require("gulp-plumber");
 
 const scssFiles = ["./scss/*.scss", "./scss/components/*.scss"];
-const cssDest = "./";
+const cssDest = "./assets/css";
 
 // Configure Sass para usar o modo de compatibilidade com versões anteriores
 sass.compiler.options = {

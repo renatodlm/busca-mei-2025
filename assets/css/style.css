@@ -10880,7 +10880,7 @@ h3, .h3 {
 }
 
 .hero {
-  background-image: url("images/hero.png");
+  background-image: url("../../images/hero.png");
   padding: 196px 0;
   background-size: cover;
   background-position: center;
@@ -11041,7 +11041,7 @@ h3, .h3 {
   top: 24px;
   left: 24px;
   padding: 6px 21px;
-  color: #fdea5b;
+  color: #245ba7;
   font-family: "Neue Haas Grotesk Display";
   font-weight: normal;
   font-style: normal;
@@ -11058,18 +11058,18 @@ h3, .h3 {
   right: 25px;
 }
 .card .liked {
-  background-image: url("images/icon-like.png");
+  background-image: url("../../images/icon-like.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 .card .unliked {
-  background-image: url("images/icon-unlike.png");
+  background-image: url("../../images/icon-unlike.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 .card .type {
   font-size: 12px;
-  color: #A5AAAA;
+  color: #a5aaaa;
 }
 .card .title {
   font-size: 16px;
@@ -11129,7 +11129,7 @@ h3, .h3 {
   justify-content: center;
   align-items: center;
   padding: 14px 27px;
-  background: #fdea5b;
+  background: #245ba7;
   border-radius: 8px;
   color: #fff;
   text-decoration: none;
@@ -11143,14 +11143,14 @@ h3, .h3 {
   justify-content: center;
   align-items: center;
   padding: 14px 27px;
-  border: 2px solid #245ba7;
+  border: 2px solid #397ddd;
   border-radius: 8px;
-  color: #245ba7;
+  color: #397ddd;
   text-decoration: none;
   line-height: 16px;
 }
 .button-transparent:hover {
-  color: #245ba7;
+  color: #397ddd;
 }
 
 .language {
@@ -11160,14 +11160,14 @@ h3, .h3 {
 .language .arrow {
   width: 10px;
   height: 6px;
-  background-image: url("images/arrow.png");
+  background-image: url("../../images/arrow.png");
 }
 .language .flag {
   width: 24px;
   height: 22px;
   border-radius: 50%;
   border: 2px solid #a5aaaa;
-  background-image: url("images/itally-flag.jpg");
+  background-image: url("../../images/itally-flag.jpg");
   background-position: center;
   background-size: contain;
 }
@@ -11180,7 +11180,7 @@ header {
   border-bottom: 1px solid #DCE1E6;
 }
 header .button-orange {
-  border: 1px solid #fdea5b;
+  border: 1px solid #245ba7;
 }
 
 .navbar {
@@ -11223,7 +11223,7 @@ header .button-orange {
 }
 
 .title-footer {
-  color: #245ba7;
+  color: #397ddd;
   font-size: 16px;
   margin-bottom: 9px;
 }
@@ -11285,7 +11285,7 @@ footer ul {
   font-style: normal;
 }
 .menu-footer a:hover {
-  color: #fdea5b;
+  color: #245ba7;
 }
 
 .social-media {
@@ -11334,8 +11334,8 @@ footer ul {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .btn-veddimappa:hover {
-  border: 1px solid #fdea5b;
-  color: #fdea5b;
+  border: 1px solid #245ba7;
+  color: #245ba7;
 }
 
 .add-filter {
@@ -11352,8 +11352,8 @@ footer ul {
   color: #000;
 }
 .add-filter li a:hover {
-  color: #fdea5b;
-  border: 1px solid #fdea5b;
+  color: #245ba7;
+  border: 1px solid #245ba7;
 }
 
 .list-filter {
@@ -11543,8 +11543,8 @@ footer ul {
   display: block;
 }
 .header-content-imovel a {
-  border: 1px solid #fdea5b;
-  color: #fdea5b;
+  border: 1px solid #245ba7;
+  color: #245ba7;
   padding: 19px 24px;
   text-decoration: none;
   border-radius: 48px;
@@ -11588,7 +11588,7 @@ footer ul {
   align-items: center;
 }
 .btn-gallery:hover {
-  color: #fdea5b;
+  color: #245ba7;
 }
 .btn-gallery img {
   margin-right: 10px;
@@ -11652,11 +11652,11 @@ footer ul {
 }
 
 .checklist {
-  background: #F2F7FA;
+  background: #f2f7fa;
   padding: 29px 24px;
 }
 .checklist ul li {
-  list-style: url("images/icon-checklist.png");
+  list-style: url("../../images/icon-checklist.png");
 }
 
 .card-visist {
@@ -11792,14 +11792,14 @@ footer ul {
   justify-content: center;
   align-items: center;
   padding: 14px 27px;
-  border: 2px solid #245ba7;
+  border: 2px solid #397ddd;
   border-radius: 48px;
-  color: #245ba7;
+  color: #397ddd;
   text-decoration: none;
   max-width: 177px;
 }
 .btn-download:hover {
-  color: #245ba7;
+  color: #397ddd;
 }
 .btn-download img {
   margin-right: 10px;
@@ -11848,14 +11848,14 @@ footer ul {
   padding: 0;
   margin: 0;
   align-items: center;
-  color: #245ba7;
+  color: #397ddd;
   font-size: 1rem;
   margin-bottom: 20px;
 }
 .expand-button span {
   width: 9.4px;
   height: 5px;
-  background: url(images/icon-expand.png);
+  background: url("../../images/icon-expand.png");
   display: block;
   margin-left: 5px;
   transition: all 1s ease-out;
@@ -11970,12 +11970,12 @@ footer ul {
 }
 
 .btn-forget {
-  color: #245ba7;
+  color: #397ddd;
   text-align: center;
   display: block;
 }
 .btn-forget:hover {
-  color: #245ba7;
+  color: #397ddd;
 }
 
 .button-gray {

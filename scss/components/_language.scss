@@ -4,17 +4,16 @@
   .arrow {
     width: 10px;
     height: 6px;
-    background-image: url('images/arrow.png');
+    background-image: url("../../images/arrow.png");
   }
   .flag {
     width: 24px;
     height: 22px;
     border-radius: 50%;
     border: 2px solid $gray;
-    background-image: url('images/itally-flag.jpg');
+    background-image: url("../../images/itally-flag.jpg");
     background-position: center;
     background-size: contain;
-    
   }
 
   .arrow {

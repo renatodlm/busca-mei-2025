@@ -12,14 +12,15 @@
   color: $mantra;
   font-size: 1rem;
   margin-bottom: 20px;
-  
-  &:hover, &:active, &:focus {
-    
+
+  &:hover,
+  &:active,
+  &:focus {
   }
   span {
     width: 9.4px;
-    height: 5.0px;
-    background: url(images/icon-expand.png);
+    height: 5px;
+    background: url("../../images/icon-expand.png");
     display: block;
     margin-left: 5px;
     transition: all 1s ease-out;
@@ -32,18 +33,18 @@
   max-height: 100px;
   overflow: hidden;
   transition: max-height 1s ease;
-  
+
   &.-expanded {
     max-height: 100vh;
   }
 
-  &.-expanded + .expand-button span{
+  &.-expanded + .expand-button span {
     transform: rotate(180deg);
   }
 }
 
 .special-text:not(.-expanded)::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
