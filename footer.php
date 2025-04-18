@@ -8,7 +8,7 @@
                         <h3 class="title-footer">Institucional</h3>
                         <ul class="menu-footer">
                             <li><a href="como-funciona.php">Como Funciona</a></li>
-                            <li><a href="faq.php">FAQ</a></li>
+                            <li><a href="faq.php">Dúvidas frequentes</a></li>
                             <li><a href="politica-privacidade.php">Política de Privacidade</a></li>
                             <li><a href="termos-de-uso.php">Termos de Uso</a></li>
                         </ul>

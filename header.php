@@ -35,6 +35,7 @@
 
                     <div class="navbar">
                         <ul class="nav menu">
+                            <a href="index.php">Home</a>
                             <a href="buscar-profissional.php">Buscar Profissional</a>
                             <a href="como-funciona.php">Como Funciona</a>
                             <a href="faq.php">Dúvidas frequentes</a>
