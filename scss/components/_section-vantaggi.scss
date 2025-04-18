@@ -1,5 +1,6 @@
 .vantaggi {
-  padding-top: 7.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 
   h2 {
     text-align: center;
@@ -9,8 +10,7 @@
   .button-orange {
     margin: 0 auto;
     display: table;
-    margin-top: 3rem;
-    margin-bottom: 7.5rem;
+    margin-top: 2rem;
     padding: 1.25rem 7.575rem;
     @include neuemedium;
   }

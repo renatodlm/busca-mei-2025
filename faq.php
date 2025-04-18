@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Perguntas Frequentes – FAQ</h2>
+                    <h1>Perguntas Frequentes – FAQ</h1>
                     <p>Encontre respostas para as principais dúvidas sobre o BuscaMEI, tanto para clientes que buscam serviços quanto para profissionais MEI que desejam se cadastrar na plataforma.</p>
 
                     <div class="accordion accodion-faq" id="accordionExample">

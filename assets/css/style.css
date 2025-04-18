@@ -10973,7 +10973,8 @@ input[type=time]::placeholder {
 }
 
 .profissoes {
-  margin: 80px 0 0;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 .profissoes h2, .profissoes .h2 {
   text-align: center;
@@ -11092,7 +11093,8 @@ input[type=time]::placeholder {
 }
 
 .vantaggi {
-  padding-top: 7.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 .vantaggi h2, .vantaggi .h2 {
   text-align: center;
@@ -11101,8 +11103,7 @@ input[type=time]::placeholder {
 .vantaggi .button-orange {
   margin: 0 auto;
   display: table;
-  margin-top: 3rem;
-  margin-bottom: 7.5rem;
+  margin-top: 2rem;
   padding: 1.25rem 7.575rem;
   font-family: "Roboto";
   font-weight: 500;
@@ -11137,11 +11138,9 @@ input[type=time]::placeholder {
   color: #555;
   font-size: 0.875rem;
   line-height: 1.5;
+  margin-bottom: 0;
 }
 
-.call-action {
-  margin-bottom: 7.625rem;
-}
 .call-action .row {
   max-width: 58.9375rem;
   margin: 0 auto;
@@ -11187,7 +11186,8 @@ input[type=time]::placeholder {
 }
 
 .rent {
-  margin-bottom: 7.625rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .card {
@@ -11509,12 +11509,6 @@ footer ul {
   text-decoration: underline !important;
 }
 
-.section-searchbar {
-  padding: 1.5625rem 0;
-  border-bottom: 1px solid #dce1e6;
-  margin-bottom: 2.5rem;
-}
-
 .input-searchbar {
   border: 1px solid #a5aaaa;
   border-radius: 4px;
@@ -11523,18 +11517,17 @@ footer ul {
 }
 
 .btn-veddimappa {
-  border: 1px solid #a5aaaa;
+  border: 1px solid #245ba7;
   border-radius: 4px;
-  padding: 0.9375rem 1.125rem;
-  color: #a5aaaa;
+  padding: 0.6875rem 1.125rem;
+  color: #245ba7;
   display: inline-block;
-  float: right;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .btn-veddimappa:hover {
-  border: 1px solid #245ba7;
-  color: #245ba7;
+  border: 1px solid #428bc1;
+  color: #428bc1;
 }
 
 .add-filter {
@@ -11944,7 +11937,8 @@ footer ul {
 }
 
 .section-faq {
-  padding: 43px 0;
+  padding: 2.5rem 0;
+  margin-bottom: 2.5rem;
 }
 .section-faq h2, .section-faq .h2,
 .section-faq h3,
@@ -11960,14 +11954,17 @@ footer ul {
   border-bottom: 2px solid #dce1e6 !important;
 }
 .accodion-faq .accordion-button {
+  color: #245ba7;
+  font-weight: 500;
   padding: 1.7rem 0;
   margin-top: 1px;
 }
 .accodion-faq .accordion-body {
+  color: #555;
   padding: 1rem 0rem;
 }
 .accodion-faq .accordion-button:not(.collapsed) {
-  color: #000;
+  color: #428bc1;
   background-color: #fff;
 }
 .accodion-faq .accordion-button:focus {
@@ -12004,14 +12001,6 @@ footer ul {
 
 .section-funziona {
   padding: 2.6875rem 0;
-}
-
-.section-funziona h2, .section-funziona .h2,
-h3,
-.h3 {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-style: normal;
 }
 
 .tab-content {
@@ -12198,5 +12187,83 @@ h3,
 }
 .button-gray:hover {
   color: #a5aaaa;
+}
+
+.buscar-profissional {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid #dce1e6;
+}
+
+.form-profissional {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.form-profissional .form-profissional-input {
+  flex: 1;
+}
+.form-profissional .form-profissional-input input {
+  width: 100%;
+}
+.form-profissional .form-profissional-button {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.depoimentos {
+  padding: 2.5rem 0;
+  background-color: #f9f9f9;
+}
+
+.depoimentos h2, .depoimentos .h2 {
+  color: #245ba7;
+  margin-bottom: 15px;
+}
+
+.depoimentos-slogan {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.depoimento-video {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.depoimento-info {
+  padding: 15px;
+}
+
+.depoimento-info h4, .depoimento-info .h4 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.depoimento-info p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.rating {
+  color: #f7c82e;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.depoimentos .button-orange {
+  margin-top: 30px;
+  display: inline-block;
 }
 /*# sourceMappingURL=maps/style.css.map */

@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Como Funciona</h2>
+                    <h1>Como Funciona</h1>
                     <p>O BuscaMEI é uma plataforma que conecta clientes a profissionais MEI (Microempreendedores Individuais) qualificados. Nosso objetivo é facilitar o acesso a serviços de qualidade e ajudar os MEIs a aumentarem sua visibilidade no mercado.</p>
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">

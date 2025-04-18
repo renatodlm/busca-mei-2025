@@ -28,7 +28,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>PROFISSÕES POPULARES</h2>
+                    <h2>Profissões Populares</h2>
                 </div>
             </div>
             <div class="row">
@@ -47,7 +47,7 @@
                         <a href="buscar-profissional.php?keyword=Metalúrgico" class="profissao-item">Metalúrgico</a>
                         <a href="buscar-profissional.php?keyword=Músico" class="profissao-item">Músico</a>
                     </div>
-                    <p class="text-center mt-4">
+                    <p class="text-center mt-4 mb-0">
                         <strong>
                             O BuscaMEI conecta você a profissionais MEI que oferecem os serviços que você precisa,
                             ajudando a encontrar o profissional ideal para o trabalho.
@@ -62,7 +62,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>FORMALIZE-SE COMO MEI</h2>
+                    <h2>Formalize-se como MEI</h2>
                 </div>
             </div>
             <div class="row">
@@ -123,8 +123,8 @@
     <section class="rent">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center mb-5">
-                    <h2>SERVIÇOS POPULARES</h2>
+                <div class="col-12 text-center mb-4">
+                    <h2>Serviços Populares</h2>
                 </div>
             </div>
             <div class="row">
@@ -193,6 +193,70 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="depoimentos">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h2>Depoimentos de clientes satisfeitos</h2>
+                    <p class="depoimentos-slogan">Clientes satisfeitos contratam pelo BuscaMEI e recomendam! Experimente você também!</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="depoimento-video">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Depoimento de cliente sobre serviço de eletricista" allowfullscreen></iframe>
+                        </div>
+                        <div class="depoimento-info">
+                            <h4>Ana Silva</h4>
+                            <p>Contratou: Eletricista</p>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="depoimento-video">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" title="Depoimento de cliente sobre serviço de encanador" allowfullscreen></iframe>
+                        </div>
+                        <div class="depoimento-info">
+                            <h4>Carlos Oliveira</h4>
+                            <p>Contratou: Encanador</p>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="depoimento-video">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/zUyH3XhpLTo" title="Depoimento de cliente sobre serviço de pedreiro" allowfullscreen></iframe>
+                        </div>
+                        <div class="depoimento-info">
+                            <h4>Fernanda Santos</h4>
+                            <p>Contratou: Pedreiro</p>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="depoimentos.php" class="button-orange">Ver mais depoimentos</a>
                 </div>
             </div>
         </div>

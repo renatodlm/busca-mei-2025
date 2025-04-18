@@ -1,5 +1,6 @@
 .section-faq {
-  padding: 43px 0;
+  padding: 2.5rem 0;
+  margin-bottom: 2.5rem;
 
   h2,
   h3,
@@ -14,14 +15,17 @@
     border-bottom: 2px solid #dce1e6 !important;
   }
   .accordion-button {
+    color: $blue;
+    font-weight: 500;
     padding: 1.7rem 0;
     margin-top: 1px;
   }
   .accordion-body {
+    color: $dark-gray;
     padding: 1rem 0rem;
   }
   .accordion-button:not(.collapsed) {
-    color: #000;
+    color: $light-blue;
     background-color: #fff;
   }
   .accordion-button:focus {

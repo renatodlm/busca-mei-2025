@@ -1,23 +1,30 @@
 <?php include 'header.php'; ?>
 <main>
-    <section class="section-searchbar">
+    <section class="buscar-profissional">
         <div class="container">
             <div class="row">
-                <form method="get" action="buscar-profissional.php" class="row">
-                    <div class="col-7">
-                        <input type="text" name="keyword" class="input-searchbar" placeholder="Digite a profissão ou serviço que procura">
-                    </div>
-                    <div class="col-5">
-                        <button type="submit" class="btn-veddimappa">Buscar Profissionais</button>
+                <div class="col-12">
+                    <h1>Profissionais MEI</h1>
+                    <p class="text">Encontre profissionais MEI qualificados para o serviço que você precisa. Veja perfis, especialidades e entre em contato diretamente.</p>
+                </div>
+                <form method="get" action="buscar-profissional.php">
+                    <div class="form-profissional">
+                        <div class="form-profissional-input">
+                            <input type="text" name="keyword" class="input-searchbar" placeholder="Digite a profissão ou serviço que procura">
+                        </div>
+                        <div class="form-profissional-button">
+                            <button type="submit" class="btn-veddimappa">Buscar Profissionais</button>
+                        </div>
                     </div>
                 </form>
             </div>
         </div>
     </section>
-    <section class="filters">
+
+    <section class="rent">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-9">
                     <ul class="add-filter">
                         <li>
                             <a type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -25,17 +32,6 @@
                             </a>
                         </li>
                     </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="headerhouses">
-        <div class="container">
-            <div class="row">
-                <div class="col-9">
-                    <p class="title">Profissionais MEI</p>
-                    <p class="text">Encontre profissionais MEI qualificados para o serviço que você precisa. Veja perfis, especialidades e entre em contato diretamente.</p>
                 </div>
                 <div class="col-3 mt-auto">
                     <form method="get" action="buscar-profissional.php">
@@ -45,7 +41,7 @@
                             <option value="alfabetica">Ordenar por ordem alfabética</option>
                             <option value="relevancia">Ordenar por relevância</option>
                         </select>
-                        <!-- Manter outros parâmetros da busca -->
+
                         <?php if (isset($_GET['keyword'])): ?>
                             <input type="hidden" name="keyword" value="<?php echo htmlspecialchars($_GET['keyword']); ?>">
                         <?php endif; ?>
@@ -53,9 +49,6 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="rent">
         <div class="container">
             <div class="row bt-row">
                 <div class="col-4">
@@ -279,8 +272,22 @@
                     </a>
                 </div>
             </div>
+        </div>
 
-
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
     </section>
 </main>
