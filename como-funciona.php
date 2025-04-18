@@ -1,19 +1,35 @@
 <?php include 'header.php'; ?>
 <main>
-    <div class="section-funziona">
-        <div class="container">
+    <div class="section-funciona">
+        <div class="container my-5">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 text-center mb-4">
                     <h1>Como Funciona</h1>
-                    <p>O BuscaMEI é uma plataforma que conecta clientes a profissionais MEI (Microempreendedores Individuais) qualificados. Nosso objetivo é facilitar o acesso a serviços de qualidade e ajudar os MEIs a aumentarem sua visibilidade no mercado.</p>
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Cliente</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profissional MEI</button>
-                        </li>
-                    </ul>
+                    <p class="lead">Escolha seu perfil para entender melhor como o BuscaMEI pode ajudar você:</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-10">
+                    <div class="tabs-container">
+                        <ul class="nav nav-tabs big-tabs" id="myTab" role="tablist">
+                            <li class="nav-item flex-fill" role="presentation">
+                                <button class="nav-link active big-tab-button" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+                                    <i class="fas fa-user me-2"></i>
+                                    <span>SOU CLIENTE</span>
+                                    <p class="tab-subtitle">Busco um profissional para um serviço</p>
+                                </button>
+                            </li>
+                            <li class="nav-item flex-fill" role="presentation">
+                                <button class="nav-link big-tab-button" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                                    <i class="fas fa-tools me-2"></i>
+                                    <span>SOU PROFISSIONAL MEI</span>
+                                    <p class="tab-subtitle">Quero oferecer meus serviços</p>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                             <ul>

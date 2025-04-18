@@ -94,26 +94,26 @@
 .btn-filtra {
   border-radius: 3rem;
   background-color: $white;
-  color: #000;
+  color: $blue;
   border: 1px solid #a5aaaa;
   padding: 0.1875rem 1.5rem;
 }
 
 .btn-check:focus + .btn {
-  background-color: #23a587;
+  background-color: $light-blue;
   color: $white;
   box-shadow: none;
 }
 
 .btn-check:checked + .btn {
-  background-color: #23a587;
+  background-color: $light-blue;
   color: $white;
   box-shadow: none;
 }
 
 .form-check-input:checked {
-  background-color: #49a587;
-  border-color: #49a587;
+  background-color: $light-blue;
+  border-color: $light-blue;
 }
 
 .link {

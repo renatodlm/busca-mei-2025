@@ -40,7 +40,7 @@
                             <a href="faq.php">Dúvidas frequentes</a>
                         </ul>
 
-                        <a href="#" class="button-orange">Seja um profissional</a>
+                        <a href="cadastro.php" class="button-orange">Seja um profissional</a>
                         <a href="login.php" class="button-transparent">Entrar</a>
 
                         <?php /* ?>

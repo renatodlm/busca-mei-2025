@@ -10949,16 +10949,18 @@ input[type=password],
 input[type=number],
 input[type=tel],
 input[type=date],
-input[type=time] {
+input[type=time],
+select,
+.form-select {
   width: 100%;
   border-radius: 4px;
   border: 1px solid #a5aaaa;
-  padding: 11px;
+  padding: 11px !important;
 }
-input[type=text]::-moz-placeholder, input[type=search]::-moz-placeholder, input[type=email]::-moz-placeholder, input[type=password]::-moz-placeholder, input[type=number]::-moz-placeholder, input[type=tel]::-moz-placeholder, input[type=date]::-moz-placeholder, input[type=time]::-moz-placeholder {
+input[type=text]::-moz-placeholder, input[type=search]::-moz-placeholder, input[type=email]::-moz-placeholder, input[type=password]::-moz-placeholder, input[type=number]::-moz-placeholder, input[type=tel]::-moz-placeholder, input[type=date]::-moz-placeholder, input[type=time]::-moz-placeholder, select::-moz-placeholder, .form-select::-moz-placeholder {
   color: #dce1e6;
 }
-input[type=text]:-ms-input-placeholder, input[type=search]:-ms-input-placeholder, input[type=email]:-ms-input-placeholder, input[type=password]:-ms-input-placeholder, input[type=number]:-ms-input-placeholder, input[type=tel]:-ms-input-placeholder, input[type=date]:-ms-input-placeholder, input[type=time]:-ms-input-placeholder {
+input[type=text]:-ms-input-placeholder, input[type=search]:-ms-input-placeholder, input[type=email]:-ms-input-placeholder, input[type=password]:-ms-input-placeholder, input[type=number]:-ms-input-placeholder, input[type=tel]:-ms-input-placeholder, input[type=date]:-ms-input-placeholder, input[type=time]:-ms-input-placeholder, select:-ms-input-placeholder, .form-select:-ms-input-placeholder {
   color: #dce1e6;
 }
 input[type=text]::placeholder,
@@ -10968,7 +10970,9 @@ input[type=password]::placeholder,
 input[type=number]::placeholder,
 input[type=tel]::placeholder,
 input[type=date]::placeholder,
-input[type=time]::placeholder {
+input[type=time]::placeholder,
+select::placeholder,
+.form-select::placeholder {
   color: #dce1e6;
 }
 
@@ -11675,26 +11679,26 @@ footer ul {
 .btn-filtra {
   border-radius: 3rem;
   background-color: #fff;
-  color: #000;
+  color: #245ba7;
   border: 1px solid #a5aaaa;
   padding: 0.1875rem 1.5rem;
 }
 
 .btn-check:focus + .btn {
-  background-color: #23a587;
+  background-color: #428bc1;
   color: #fff;
   box-shadow: none;
 }
 
 .btn-check:checked + .btn {
-  background-color: #23a587;
+  background-color: #428bc1;
   color: #fff;
   box-shadow: none;
 }
 
 .form-check-input:checked {
-  background-color: #49a587;
-  border-color: #49a587;
+  background-color: #428bc1;
+  border-color: #428bc1;
 }
 
 .link {
@@ -11999,7 +12003,7 @@ footer ul {
   margin-right: 10px;
 }
 
-.section-funziona {
+.section-funciona {
   padding: 2.6875rem 0;
 }
 
@@ -12265,5 +12269,76 @@ footer ul {
 .depoimentos .button-orange {
   margin-top: 30px;
   display: inline-block;
+}
+
+.big-tabs {
+  border-bottom: none;
+  margin-bottom: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.big-tab-button {
+  padding: 20px 15px;
+  border: 2px solid #245ba7;
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-tab-button span {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.tab-subtitle {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 5px 0 0 0;
+  opacity: 0.8;
+}
+
+.nav-tabs .nav-item.flex-fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-tab-button.active {
+  background-color: #fdea5b;
+  color: white;
+  border-color: #fdea5b;
+}
+
+.big-tab-button:hover:not(.active) {
+  background-color: #f8f9fa;
+  border-color: #555;
+}
+
+.tabs-container {
+  margin-bottom: 30px;
+}
+
+.nav-link {
+  border-radius: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .nav-item.flex-fill {
+    margin-bottom: 15px;
+  }
+
+  .big-tabs {
+    flex-direction: column;
+  }
 }
 /*# sourceMappingURL=maps/style.css.map */

@@ -254,11 +254,6 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a href="depoimentos.php" class="button-orange">Ver mais depoimentos</a>
-                </div>
-            </div>
         </div>
     </section>
 

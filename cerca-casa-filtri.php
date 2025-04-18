@@ -47,7 +47,7 @@
             <div class="row">
                 <div class="col-9">
                     <p class="title">Annunci di affitto vincino a Torino</p>
-                    <p class="text">Cerca tra oltre 120 annunci di affitto a Torino e dintorni. Prenota una visita o affitta direttamente online. Scopri come funziona.</p>
+                    <p class="text">Cerca tra oltre 120 annunci di affitto a Torino e dintorni. Prenota una visita o affitta direttamente online. Scopri come funciona.</p>
                 </div>
                 <div class="col-3 mt-auto">
                     <select name="cars" id="cars" class="ordena-house">

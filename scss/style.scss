@@ -47,11 +47,13 @@ input[type="password"],
 input[type="number"],
 input[type="tel"],
 input[type="date"],
-input[type="time"] {
+input[type="time"],
+select,
+.form-select {
   width: 100%;
   border-radius: 4px;
   border: 1px solid #a5aaaa;
-  padding: 11px;
+  padding: 11px !important;
   &::placeholder {
     color: #dce1e6;
   }
@@ -133,7 +135,7 @@ input[type="time"] {
 
 @import "components/section-faq";
 
-@import "components/section-funziona";
+@import "components/section-funciona";
 @import "components/tabs";
 @import "components/expand-text";
 @import "components/carousel";
@@ -144,3 +146,5 @@ input[type="time"] {
 
 @import "components/section-buscar-profissional";
 @import "components/section-depoimentos";
+
+@import "components/como-funciona";
