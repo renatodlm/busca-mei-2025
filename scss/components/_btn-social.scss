@@ -2,7 +2,7 @@
   background-color: $white;
   border-radius: 8px;
   padding: 12px 32px;
-  color: $blue !important;
+  color: #25d366 !important;
   position: absolute;
   margin-top: 20px;
   display: flex;
@@ -12,6 +12,6 @@
     margin-right: 5px;
   }
   &:hover {
-    color: #428bc1 !important;
+    color: #25d366 !important;
   }
 }

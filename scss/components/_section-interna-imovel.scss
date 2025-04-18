@@ -1,57 +1,63 @@
 .header-imovel {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
+
 .header-content-imovel {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 39px;
+  margin-bottom: 2.4375rem;
+
   h2 {
-    font-size: 24px !important;
+    font-size: 1.5rem !important;
     span {
-      font-size: 14px;
+      font-size: 0.875rem;
       display: block;
     }
   }
+
   a {
     border: 1px solid $blue;
     color: $blue;
-    padding: 19px 24px;
+    padding: 0.875rem 1.5rem;
     text-decoration: none;
-    border-radius: 48px;
+    border-radius: 0.3125rem;
   }
 }
+
 .content-imovel {
   h2 {
-    margin-bottom: 25px;
-    font-size: 24px !important;
+    margin-bottom: 1.5625rem;
+    font-size: 1.5rem !important;
     @include neuemedium;
   }
 
   h3 {
-    margin-top: 16px;
-    margin-bottom: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1.5625rem;
     @include neuemedium;
   }
 
   .tag-available {
-    margin-bottom: 41px;
+    margin-bottom: 2.5625rem;
   }
 
   .checklist {
-    margin-bottom: 57px;
+    margin-bottom: 3.5625rem;
   }
 }
+
 .content-imovel {
   position: relative;
 }
+
 .btn-gallery {
-  padding: 14px 24px;
+  padding: 0.875rem 1.5rem;
   background-color: #fff;
   color: #000;
-  border-radius: 48px;
+  border-radius: 0.3125rem;
   position: absolute;
   width: auto;
-  top: -120px;
+  top: -7.5rem;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -59,17 +65,19 @@
   &:hover {
     color: $blue;
   }
+
   img {
-    margin-right: 10px;
+    margin-right: 0.625rem;
   }
 }
+
 .tag-id {
   color: #000;
-  padding: 7px 16px;
-  border-radius: 24px;
+  padding: 0.4375rem 1rem;
+  border-radius: 0.3125rem;
   border: 1px solid #000;
   display: block;
   float: right;
   text-align: right;
-  margin-top: -35px;
+  margin-top: -2.1875rem;
 }

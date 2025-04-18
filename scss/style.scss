@@ -40,6 +40,22 @@ p {
   font-size: 14px;
 }
 
+input[type="text"],
+input[type="search"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+input[type="time"] {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #a5aaaa;
+  padding: 11px;
+  &::placeholder {
+    color: #dce1e6;
+  }
+}
 //HOME
 
 //-->SECTION PROFISSOES

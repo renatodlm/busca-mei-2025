@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.16 93.41">
+  <g id="c" data-name="Layer 1">
+    <g>
+      <path d="M87.39,48.25c-10.92-21.72,3.68-39.83-26.03-47.13C40.78-3.94,15.45,8.74,5.42,27.6c-7.57,14.23-8.42,28.06,5.34,32.86,13.75,4.79,20.76,15.28,27.82,23.79,8.88,10.7,33.07,12.97,45.45,1.76,12.38-11.22,10.84-22.91,3.38-37.75Z" style="fill: #ebf1f9; stroke-width: 0px;"/>
+      <g>
+        <rect x="32.9" y="28.89" width="59.59" height="41.82" style="fill: #fff; stroke-width: 0px;"/>
+        <rect x="32.9" y="28.94" width="59.59" height="10.46" style="fill: #759ed3; stroke-width: 0px;"/>
+        <g>
+          <rect x="42.21" y="43.02" width="40.95" height="1.2" style="fill: #3e67b1; stroke-width: 0px;"/>
+          <rect x="46.31" y="45.69" width="36.86" height="1.2" style="fill: #ed9722; stroke-width: 0px;"/>
+          <rect x="42.21" y="45.69" width="2.66" height="1.2" style="fill: #ed9722; stroke-width: 0px;"/>
+          <rect x="42.21" y="48.8" width="40.95" height="1.2" style="fill: #bfbebe; stroke-width: 0px;"/>
+          <rect x="42.21" y="51.82" width="27.19" height="1.2" style="fill: #bfbebe; stroke-width: 0px;"/>
+          <rect x="42.21" y="56.49" width="36.86" height="1.2" style="fill: #3e67b1; stroke-width: 0px;"/>
+          <rect x="42.21" y="59.16" width="30.72" height="1.2" style="fill: #ed9722; stroke-width: 0px;"/>
+          <rect x="42.21" y="62.27" width="40.95" height="1.2" style="fill: #bfbebe; stroke-width: 0px;"/>
+          <rect x="42.21" y="65.29" width="27.19" height="1.2" style="fill: #bfbebe; stroke-width: 0px;"/>
+        </g>
+        <g>
+          <rect x="50.27" y="32.93" width="30.8" height="2.77" style="fill: #fff; stroke-width: 0px;"/>
+          <rect x="76.31" y="32.82" width="6.62" height="2.99" style="fill: #567ec0; stroke-width: 0px;"/>
+          <rect x="39.97" y="32.93" width="8.68" height="2.77" style="fill: #ed9722; stroke-width: 0px;"/>
+        </g>
+        <path d="M92.48,29.71v-2.51c0-.56-.47-1.03-1.05-1.03h-57.48c-.58,0-1.05.46-1.05,1.03v2.51h59.59Z" style="fill: #16405e; stroke-width: 0px;"/>
+      </g>
+      <g>
+        <path d="M52.88,11.16c-7.94-1.17-15.42,4.59-16.7,12.85s4.12,15.91,12.06,17.08c7.94,1.17,15.42-4.59,16.7-12.85,1.28-8.26-4.12-15.91-12.06-17.08Z" style="fill: #a3cce6; opacity: .4; stroke-width: 0px;"/>
+        <g>
+          <path d="M68.8,28.18c-.57,3.69-2.32,7.24-5.25,10.06-7.18,6.91-18.7,6.82-25.74-.2-4.16-4.15-5.82-9.8-5-15.15l3.36.49c-.67,4.35.68,8.95,4.07,12.33h0c5.72,5.71,15.1,5.78,20.94.16,2.38-2.29,3.81-5.18,4.27-8.18l3.35.49ZM63.8,13.03c4.16,4.15,5.82,9.8,4.99,15.15l-3.35-.49c.67-4.35-.68-8.95-4.06-12.33-5.72-5.71-15.1-5.78-20.94-.16-2.38,2.29-3.81,5.18-4.27,8.19l-3.36-.49c.57-3.69,2.32-7.24,5.25-10.06,7.18-6.9,18.7-6.81,25.73.2Z" style="fill: #16405e; stroke-width: 0px;"/>
+          <polygon points="24.85 47.14 28.3 50.58 40.94 38.41 37.5 34.97 24.85 47.14" style="fill: #16405e; stroke-width: 0px;"/>
+        </g>
+        <g>
+          <polygon points="24.85 47.14 28.3 50.58 36.34 42.83 32.9 39.4 24.85 47.14" style="fill: #f7c82e; stroke-width: 0px;"/>
+          <path d="M17.73,51.97c-1.55,1.49-1.58,3.94-.06,5.45,1.52,1.52,4.01,1.54,5.56.04l13.01-13.68c.86-.82-.33-1.15-.38-1.21,0,0-2.89-3.17-2.97-3.18,0,0-.28-.41-1.13.41l-14.03,12.16Z" style="fill: #f7c82e; stroke-width: 0px;"/>
+        </g>
+        <path d="M62.82,28.27c1.1-7.09-4.01-13.72-11.41-14.81-2.36-.35-4.66-.09-6.75.66,2.49-1.29,5.43-1.84,8.45-1.39,7.4,1.09,12.51,7.72,11.41,14.81-.75,4.83-4.19,8.63-8.64,10.22,3.61-1.87,6.29-5.28,6.94-9.48Z" style="fill: #fff; opacity: .6; stroke-width: 0px;"/>
+      </g>
+    </g>
+  </g>
+</svg>

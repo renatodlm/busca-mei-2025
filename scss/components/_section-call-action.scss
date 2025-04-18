@@ -1,13 +1,13 @@
 .call-action {
-  margin-bottom: 122px;
+  margin-bottom: 7.625rem;
 
   .row {
-    max-width: 943px;
+    max-width: 58.9375rem;
     margin: 0 auto;
 
     img {
-      max-width: 508px;
-      max-height: 508px;
+      max-width: 31.75rem;
+      max-height: 31.75rem;
     }
 
     span {
@@ -15,25 +15,25 @@
     }
 
     p {
-      line-height: 40px;
+      line-height: 2.5rem;
     }
   }
 
   .box-call-action {
-    max-width: 391px;
+    max-width: 24.4375rem;
 
     .title {
       @include sequel;
     }
     .text {
-      line-height: 30px;
+      line-height: 1.875rem;
     }
   }
 }
 
 .btn-cta {
-  padding: 19px 101px !important;
-  margin-top: 7px;
+  padding: 1.1875rem 6.3125rem !important;
+  margin-top: 0.4375rem;
   display: inline-block;
   @include neuemedium;
 }

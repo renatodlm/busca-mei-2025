@@ -10,11 +10,11 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <div class="form-hero">
-                        <label for="pesquisa">Pesquise o profissional que você precisa!</label>
-                        <input type="text" id="pesquisa" placeholder="Digite a profissão ou serviço que você está buscando">
-                        <a href="#" class="button-orange">Pesquisar</a>
-                    </div>
+                    <form method="get" action="buscar-profissional.php" class="form-hero">
+                        <label for="keyword">Pesquise o profissional que você precisa!</label>
+                        <input type="text" id="keyword" name="keyword" placeholder="Digite a profissão ou serviço que você está buscando">
+                        <button type="submit" class="button-orange">Pesquisar</button>
+                    </form>
                     <div class="termo-uso">
                         <span>Ao pesquisar um profissional, você concorda com o </span>
                         <a href="termos.php" class="link-termo">Termo de uso</a>
@@ -34,18 +34,18 @@
             <div class="row">
                 <div class="col-12">
                     <div class="profissoes-list">
-                        <a href="#" class="profissao-item">Eletricista</a>
-                        <a href="#" class="profissao-item">Pedreiro</a>
-                        <a href="#" class="profissao-item">Encanador</a>
-                        <a href="#" class="profissao-item">Jardineiro</a>
-                        <a href="#" class="profissao-item">Doméstico</a>
-                        <a href="#" class="profissao-item">Azulejista</a>
-                        <a href="#" class="profissao-item">Mecânico</a>
-                        <a href="#" class="profissao-item">Chapeador</a>
-                        <a href="#" class="profissao-item">Borracheiro</a>
-                        <a href="#" class="profissao-item">Vidraceiro</a>
-                        <a href="#" class="profissao-item">Metalúrgico</a>
-                        <a href="#" class="profissao-item">Músico</a>
+                        <a href="buscar-profissional.php?keyword=Eletricista" class="profissao-item">Eletricista</a>
+                        <a href="buscar-profissional.php?keyword=Pedreiro" class="profissao-item">Pedreiro</a>
+                        <a href="buscar-profissional.php?keyword=Encanador" class="profissao-item">Encanador</a>
+                        <a href="buscar-profissional.php?keyword=Jardineiro" class="profissao-item">Jardineiro</a>
+                        <a href="buscar-profissional.php?keyword=Doméstico" class="profissao-item">Doméstico</a>
+                        <a href="buscar-profissional.php?keyword=Azulejista" class="profissao-item">Azulejista</a>
+                        <a href="buscar-profissional.php?keyword=Mecânico" class="profissao-item">Mecânico</a>
+                        <a href="buscar-profissional.php?keyword=Chapeador" class="profissao-item">Chapeador</a>
+                        <a href="buscar-profissional.php?keyword=Borracheiro" class="profissao-item">Borracheiro</a>
+                        <a href="buscar-profissional.php?keyword=Vidraceiro" class="profissao-item">Vidraceiro</a>
+                        <a href="buscar-profissional.php?keyword=Metalúrgico" class="profissao-item">Metalúrgico</a>
+                        <a href="buscar-profissional.php?keyword=Músico" class="profissao-item">Músico</a>
                     </div>
                     <p class="text-center mt-4">
                         <strong>
@@ -97,7 +97,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <a href="#" class="button-orange">Formalize-se agora!</a>
+                    <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor" target="_blank" class="button-orange">Formalize-se agora!</a>
                 </div>
             </div>
         </div>
@@ -107,13 +107,13 @@
         <div class="container">
             <div class="row align-center">
                 <div class="col">
-                    <img src="images/call-action.png" alt="">
+                    <img src="images/call-action.png" alt="Profissionais MEI">
                 </div>
                 <div class="col">
                     <div class="box-call-action">
                         <p class="title"><span>Conectando</span> clientes e profissionais</p>
                         <p class="text">Economize tempo e encontre hoje mesmo o profissional MEI ideal para o serviço que você precisa</p>
-                        <a href="#" class="button-orange btn-cta">Encontrar profissional</a>
+                        <a href="buscar-profissional.php" class="button-orange btn-cta">Encontrar profissional</a>
                     </div>
                 </div>
             </div>

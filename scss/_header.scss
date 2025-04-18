@@ -17,9 +17,11 @@ header {
   align-items: center;
   padding-top: 0;
   padding-bottom: 0;
-  max-width: 688px;
   justify-content: space-between;
   margin-left: auto;
+  width: fit-content;
+  gap: 2rem;
+
   .nav {
     margin: 0;
 

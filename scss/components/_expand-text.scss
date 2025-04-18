@@ -11,7 +11,7 @@
 
   color: $mantra;
   font-size: 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 
   &:hover,
   &:active,
@@ -30,7 +30,7 @@
 // Okay legit CSS now
 .special-text {
   position: relative;
-  max-height: 100px;
+  max-height: 6.25rem;
   overflow: hidden;
   transition: max-height 1s ease;
 

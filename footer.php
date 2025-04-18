@@ -2,34 +2,26 @@
     <div class="section-footer">
         <div class="container">
             <div class="row">
-                <div class="col-7">
-                    <div class="navigation-footer">
-                        <a href="index.php"><img src="images/logotipo-footer.svg" alt="buscamei"></a>
-                        <div class="navbar-footer">
-                            <h3 class="title-footer">Trova</h3>
-                            <ul class="menu-footer">
-                                <li><a href="#">Chi siamo</a></li>
-                                <li><a href="#">Domande frequenti – FAQ</a></li>
-                            </ul>
-                        </div>
-                        <div class="navbar-footer">
-                            <h3 class="title-footer">Transparenza</h3>
-                            <ul class="menu-footer">
-                                <li><a href="#">Termini & Condizioni</a></li>
-                                <li><a href="#">Privacy</a></li>
-                            </ul>
-                        </div>
+                <div class="navigation-footer">
+                    <a href="index.php"><img src="images/logotipo-footer.svg" alt="buscamei"></a>
+                    <div class="navbar-footer">
+                        <h3 class="title-footer">Central de Ajuda</h3>
+                        <p>
+                            BuscaMEI</span> é mantida pela <a href="https://aeifi.com.br/" target="_blank">AEIFI</a>
+                        </p>
+                        <p>
+                            Horário de atendimento: <br>Segunda a sexta: 09h às 17h
+                        </p>
                     </div>
-                </div>
-                <div class="col-5">
                     <div class="navigation-contact">
-                        <h3 class="title-footer">Non trovi quello che stai cercando?</h3>
+                        <h3 class="title-footer">
+                            Pelo whatsApp ou Ligue!
+                        </h3>
                         <ul class="menu-footer">
-                            <li><a href="#" class="mailto">scrivi@buscamei.it</a></li>
-                            <li><a href="" class="btn-social menssenger"> <img src="images/messenger.svg" alt=""> messenger</a></li>
+                            <li><a href="mailto:mailaeififoz@gmail.com" class="mailto">mailaeififoz@gmail.com</a></li>
+                            <li><a href="https://wa.me/5545998462423" class="btn-social"> <img src="images/messenger.svg" alt=""> (45) 99846-2423</a></li>
                         </ul>
                     </div>
-
                 </div>
             </div>
         </div>

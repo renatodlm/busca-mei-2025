@@ -1,29 +1,29 @@
 .login {
-  padding: 54px 46px;
-  max-width: 480px;
+  padding: 3.375rem 2.875rem;
+  max-width: 30rem;
   margin: 0 auto;
-  border: 1px solid #DCE1E6;
+  border: 1px solid #dce1e6;
   border-radius: 8px;
 }
 .btn-google {
   display: flex;
   text-align: center;
-  background-color: #DCE1E6;
+  background-color: #dce1e6;
   border-radius: 8px;
   color: #000;
-  padding: 14px 107px;
+  padding: 0.875rem 6.6875rem;
   text-decoration: none;
   &:hover {
     color: #000;
   }
   img {
-    margin-right: 10px;
+    margin-right: 0.625rem;
   }
 }
 .submit {
   display: block;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 .btn-forget {
   color: $mantra;

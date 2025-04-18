@@ -1,14 +1,14 @@
 .button-gray {
   justify-content: center;
   align-items: center;
-  padding: 14px 27px;
+  padding: 0.875rem 1.6875rem;
   background: #fff;
   border-radius: 8px;
-  border: 1px solid #A5AAAA;
-  color: #A5AAAA;
+  border: 1px solid #a5aaaa;
+  color: #a5aaaa;
   text-decoration: none;
-  line-height: 16px;
+  line-height: 1rem;
   &:hover {
-    color: #A5AAAA;
+    color: #a5aaaa;
   }
 }

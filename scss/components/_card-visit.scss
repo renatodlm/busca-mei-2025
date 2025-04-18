@@ -1,17 +1,13 @@
-
-
 .card-visist {
-  border: 1px solid #DCE1E6;
+  border: 1px solid #dce1e6;
   background-color: $white;
-  padding: 32px 23px;
-  border-radius: 8px;
-  margin-top: -78px;
+  padding: 2rem 1.4375rem;
+  border-radius: 0.5rem;
+  margin-top: -4.875rem;
   .header-profile {
     display: flex;
-    border-bottom: 1px solid #DCE1E6;
-    padding-bottom: 29px;
-
-
+    border-bottom: 1px solid #dce1e6;
+    padding-bottom: 1.8125rem;
 
     p {
       margin: 0;
@@ -24,25 +20,23 @@
     text-align: center;
     padding: 10px 0;
     border: 0;
-    
 
     a {
-      margin-bottom: 10px;
+      margin-bottom: 0.625rem;
     }
-
   }
 }
 .name {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .bio {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .mensal {
-  font-size: 16px;
-  color: #A5AAAA;
-  padding: 20px 0 0 0;
+  font-size: 1rem;
+  color: #a5aaaa;
+  padding: 1.25rem 0 0 0;
   ul {
     padding: 0;
     margin: 0;
@@ -53,10 +47,10 @@
 }
 
 .total {
-  font-size: 16px;
+  font-size: 1rem;
   color: #000;
-  border-bottom: 1px solid #DCE1E6;
-  padding: 20px 0;
+  border-bottom: 1px solid #dce1e6;
+  padding: 1.25rem 0;
   ul {
     padding: 0;
     margin: 0;
@@ -66,31 +60,29 @@
   }
 }
 .img-profile {
-  width: 56px;
-  height: 56px;
+  width: 3.5rem;
+  height: 3.5rem;
   border-radius: 50%;
-  margin-right: 25px;
+  margin-right: 1.5625rem;
 }
 
 .schedule {
-  margin-top: 23px;
-  margin-bottom: 16px;
-  ul{
+  margin-top: 1.4375rem;
+  margin-bottom: 1rem;
+  ul {
     display: flex;
     padding: 0;
     margin: 0;
     list-style: none;
     justify-content: space-between;
-
   }
 
   li {
-
-    border: 1px solid #DCE1E6;
+    border: 1px solid #dce1e6;
     border-radius: 4px;
     text-align: center;
-    padding: 23px 19px;
-    color: #A5AAAA;
+    padding: 1.4375rem 1.1875rem;
+    color: #a5aaaa;
     span {
       display: block;
     }

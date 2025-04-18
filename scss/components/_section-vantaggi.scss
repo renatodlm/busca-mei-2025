@@ -1,17 +1,17 @@
 .vantaggi {
-  padding-top: 120px;
+  padding-top: 7.5rem;
 
   h2 {
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 2.1875rem;
   }
 
   .button-orange {
     margin: 0 auto;
     display: table;
-    margin-top: 48px;
-    margin-bottom: 120px;
-    padding: 20px 121.4px;
+    margin-top: 3rem;
+    margin-bottom: 7.5rem;
+    padding: 1.25rem 7.575rem;
     @include neuemedium;
   }
 }

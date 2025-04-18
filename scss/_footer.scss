@@ -3,8 +3,8 @@
 @import "components/btn-social";
 
 .section-footer {
-  padding-top: 49px;
-  padding-bottom: 47px;
+  padding-top: 3.0625rem;
+  padding-bottom: 2.9375rem;
   background-color: $light-blue;
 }
 
@@ -52,7 +52,7 @@ footer ul {
 
   li {
     text-align: right;
-    margin-left: 34px;
+    margin-left: 2.125rem;
   }
 }
 
@@ -61,7 +61,7 @@ footer ul {
     color: $white;
     margin-right: 1rem;
     @include neuemedium;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 
