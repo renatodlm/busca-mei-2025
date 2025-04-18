@@ -97,6 +97,7 @@
   color: $blue;
   border: 1px solid #a5aaaa;
   padding: 0.1875rem 1.5rem;
+  margin: 4px;
 }
 
 .btn-check:focus + .btn {
@@ -124,11 +125,11 @@
   .modal-body {
     padding-bottom: 1.875rem;
   }
+
   .btn-social {
     background-color: #f4f5f6;
     display: block;
     border-radius: 8px;
-    margin-top: 1.5rem;
     text-decoration: none;
   }
 }

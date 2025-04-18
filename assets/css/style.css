@@ -10925,17 +10925,18 @@ p {
     max-width: 1133px;
   }
 }
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-  padding-right: 40px;
-  padding-left: 40px;
+@media (min-width: 992px) {
+  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
 }
-
 .align-center {
   align-items: center;
 }
 
-.bt-row {
-  margin-bottom: 40px;
+.bt-row > div {
+  margin-bottom: 1.5rem;
 }
 
 .text {
@@ -11011,6 +11012,12 @@ select::placeholder,
   background-size: cover;
   background-position: center;
   position: relative;
+  background-size: cover;
+}
+@media (max-width: 992px) {
+  .hero {
+    padding: 6.25rem 0;
+  }
 }
 .hero::before {
   content: "";
@@ -11068,6 +11075,13 @@ select::placeholder,
   font-size: 0.875rem;
   color: #555;
 }
+@media (max-width: 992px) {
+  .termo-uso {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
 .termo-uso .link-termo {
   color: #397ddd;
   margin-left: 5px;
@@ -11113,6 +11127,11 @@ select::placeholder,
   font-weight: 500;
   font-style: normal;
 }
+@media (max-width: 992px) {
+  .vantaggi .button-orange {
+    padding: 1.25rem 3.5rem;
+  }
+}
 
 .box-vantaggi {
   border: 1px solid #a5aaaa;
@@ -11153,6 +11172,12 @@ select::placeholder,
   max-width: 31.75rem;
   max-height: 31.75rem;
 }
+@media (max-width: 992px) {
+  .call-action .row img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
 .call-action .row span {
   display: block;
 }
@@ -11161,6 +11186,12 @@ select::placeholder,
 }
 .call-action .box-call-action {
   max-width: 24.4375rem;
+  margin: 0 auto;
+}
+@media (max-width: 992px) {
+  .call-action .box-call-action {
+    text-align: center;
+  }
 }
 .call-action .box-call-action .title {
   font-family: "DM Serif Display";
@@ -11179,6 +11210,11 @@ select::placeholder,
   font-weight: 500;
   font-style: normal;
 }
+@media (max-width: 992px) {
+  .btn-cta {
+    padding: 1.1875rem 3.3125rem !important;
+  }
+}
 
 .box-call-action .title {
   font-size: 2.5rem;
@@ -11195,7 +11231,7 @@ select::placeholder,
 }
 
 .card {
-  margin-bottom: 1.875rem;
+  margin-bottom: 1rem;
   height: 100%;
   border-radius: 8px;
   overflow: hidden;
@@ -11386,6 +11422,7 @@ header .button-orange {
   width: -moz-fit-content;
   width: fit-content;
   gap: 2rem;
+  padding: 0 !important;
 }
 .navbar .nav {
   margin: 0;
@@ -11412,11 +11449,20 @@ header .button-orange {
   font-size: 14px;
 }
 
-.logo {
-  position: absolute;
-  margin-top: -2px;
+.mobile-menu-toggler {
+  border: none;
+  background: none;
+  font-size: 24px;
+  color: #245ba7;
+  height: 32px;
+  width: 32px;
 }
 
+@media (min-width: 992px) {
+  .mobile-menu-toggler {
+    display: none !important;
+  }
+}
 .title-footer {
   color: #fdea5b;
   font-size: 1rem;
@@ -11424,6 +11470,9 @@ header .button-orange {
   font-weight: 600;
 }
 
+footer {
+  background-color: #428bc1;
+}
 footer p,
 footer a {
   color: #fff;
@@ -11435,10 +11484,12 @@ footer a {
   border-radius: 8px;
   padding: 12px 32px;
   color: #25d366 !important;
-  position: absolute;
   margin-top: 20px;
   display: flex;
   align-items: center;
+  display: inline-block;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .btn-social img {
   margin-right: 5px;
@@ -11461,14 +11512,56 @@ footer ul {
 .navigation-footer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 576px) {
+  .navigation-footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .navigation-footer .logo-footer {
+    max-width: 48%;
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .navigation-footer .logo-footer {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .navigation-footer .navbar-footer {
+    max-width: 48%;
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .navigation-footer .navbar-footer {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .navigation-footer .navigation-contact {
+    max-width: 48%;
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .navigation-footer .navigation-contact {
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 .section-copyright {
   color: #fff;
   background-color: #428bc1;
-}
-.section-copyright hr {
-  border-color: #fff;
 }
 .section-copyright ul {
   display: flex;
@@ -11495,9 +11588,22 @@ footer ul {
   justify-content: flex-end;
   color: #fff;
 }
+@media (max-width: 576px) {
+  .social-media {
+    gap: 1rem;
+  }
+}
 .social-media li {
   text-align: right;
   margin-left: 2.125rem;
+}
+@media (max-width: 576px) {
+  .social-media {
+    justify-content: center;
+  }
+  .social-media li {
+    margin-left: 0;
+  }
 }
 
 .list-copy li {
@@ -11507,6 +11613,21 @@ footer ul {
   font-weight: 500;
   font-style: normal;
   font-size: 0.875rem;
+}
+@media (max-width: 576px) {
+  .list-copy li {
+    text-align: center;
+    margin: 0;
+  }
+  .list-copy li.separator {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .list-copy {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .mailto {
@@ -11701,6 +11822,7 @@ footer ul {
   color: #245ba7;
   border: 1px solid #a5aaaa;
   padding: 0.1875rem 1.5rem;
+  margin: 4px;
 }
 
 .btn-check:focus + .btn {
@@ -11731,7 +11853,6 @@ footer ul {
   background-color: #f4f5f6;
   display: block;
   border-radius: 8px;
-  margin-top: 1.5rem;
   text-decoration: none;
 }
 
@@ -12029,11 +12150,24 @@ footer ul {
 .tab-content {
   padding-top: 4.9375rem;
 }
+@media (max-width: 992px) {
+  .tab-content {
+    padding-top: 2rem;
+  }
+}
 .tab-content ul li {
   display: flex;
   max-width: 51.25rem;
   margin: 0 auto 3.5rem auto;
   align-items: center;
+  gap: 1rem;
+}
+@media (max-width: 992px) {
+  .tab-content ul li {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
 }
 .tab-content ul li img {
   margin-right: auto;
@@ -12044,6 +12178,11 @@ footer ul {
 }
 .tab-content ul li .box-text {
   width: 33.75rem;
+}
+@media (max-width: 992px) {
+  .tab-content ul li .box-text {
+    width: 100%;
+  }
 }
 
 .nav-tabs .nav-link.active,
@@ -12233,6 +12372,19 @@ footer ul {
 .form-profissional .form-profissional-button {
   width: -moz-fit-content;
   width: fit-content;
+}
+@media (max-width: 992px) {
+  .form-profissional {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .form-profissional .form-profissional-input {
+    width: 100%;
+  }
+  .form-profissional .form-profissional-button {
+    width: 100%;
+  }
 }
 
 .pagination {

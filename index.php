@@ -66,28 +66,28 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
                     <div class="box-vantaggi">
                         <img src="images/icon-cnpj.svg" alt="CNPJ Ativo">
                         <p class="title">CNPJ Ativo</p>
                         <p class="text">Desfrute da cidadania empresarial e ganhe mais credibilidade no mercado, podendo emitir notas fiscais e ter acesso a diversos benefícios.</p>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
                     <div class="box-vantaggi">
                         <img src="images/icon-nota.svg" alt="Nota Fiscal">
                         <p class="title">Nota Fiscal</p>
                         <p class="text">Regularize suas operações e ofereça segurança aos seus clientes, aumentando a confiança em seus serviços e reduzindo a informalidade.</p>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
                     <div class="box-vantaggi">
                         <img src="images/icon-inss.svg" alt="INSS">
                         <p class="title">INSS Garantido</p>
                         <p class="text">Garanta sua contribuição previdenciária com todos os benefícios assegurados pela legislação: aposentadoria, auxílio-doença e licença-maternidade.</p>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
                     <div class="box-vantaggi">
                         <img src="images/icon-credito.svg" alt="Crédito">
                         <p class="title">Acesso a Crédito</p>
@@ -105,11 +105,11 @@
 
     <section class="call-action">
         <div class="container">
-            <div class="row align-center">
-                <div class="col">
+            <div class="row align-center justify-content-center">
+                <div class="col-md-6">
                     <img src="images/call-action.png" alt="Profissionais MEI">
                 </div>
-                <div class="col">
+                <div class="col-md-6">
                     <div class="box-call-action">
                         <p class="title"><span>Conectando</span> clientes e profissionais</p>
                         <p class="text">Economize tempo e encontre hoje mesmo o profissional MEI ideal para o serviço que você precisa</p>
@@ -128,7 +128,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card">
                         <div class="status">Disponível</div>
 
@@ -150,7 +150,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card">
                         <div class="status">Disponível</div>
 
@@ -172,7 +172,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card">
                         <div class="status">Disponível</div>
 

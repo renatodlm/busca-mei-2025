@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 <main>
     <div class="section-funciona">
-        <div class="container my-5">
+        <div class="container">
             <div class="row">
                 <div class="col-12 text-center mb-4">
                     <h1>Como Funciona</h1>

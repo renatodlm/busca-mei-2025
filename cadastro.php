@@ -154,7 +154,7 @@
 
                             <div class="mb-5 form-check">
                                 <input type="checkbox" class="form-check-input" id="termos" name="termos" required>
-                                <label class="form-check-label" for="termos">Concordo com os <a href="termos.php" target="_blank">termos de uso</a> e <a href="privacidade.php" target="_blank  ">política de privacidade</a></label>
+                                <label class="form-check-label" for="termos">Concordo com os <a href="termos-de-uso.php" target="_blank">termos de uso</a> e <a href="politica-privacidade.php" target="_blank  ">política de privacidade</a></label>
                             </div>
 
                             <button type="submit" class="button-orange submit">Cadastrar Profissional</button>

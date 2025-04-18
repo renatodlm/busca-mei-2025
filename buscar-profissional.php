@@ -24,7 +24,7 @@
     <section class="rent">
         <div class="container">
             <div class="row">
-                <div class="col-9">
+                <div class="col-md-9">
                     <ul class="add-filter">
                         <li>
                             <a type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -33,7 +33,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-3 mt-auto">
+                <div class="col-md-3 mt-auto">
                     <form method="get" action="buscar-profissional.php">
                         <select name="ordenacao" id="ordenacao" class="ordena-house" onchange="this.form.submit()">
                             <option value="recentes">Ordenar por mais recentes</option>
@@ -195,7 +195,7 @@
         </div>
         <div class="container">
             <div class="row bt-row">
-                <div class="col-4">
+                <div class="col-lg-4">
                     <div class="card">
                         <div class="status">Disponível</div>
                         <div class="card-body">
@@ -217,7 +217,7 @@
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-lg-4">
                     <div class="card">
                         <div class="status">Disponível</div>
                         <div class="card-body">
@@ -239,73 +239,7 @@
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <div class="card">
-                        <div class="status">Disponível</div>
-                        <div class="card-body">
-                            <h5 class="type">Construção Civil</h5>
-                            <p class="title">Jose Jaime</p>
-                            <p class="cnpj">CNPJ: 21.988/0001-00</p>
-                            <p class="adress">Zona Norte, São Paulo - SP</p>
-                            <p class="description"><strong>Descrição:</strong> Especialidade em construção, aplicação de azulejo, estrutural</p>
-                            <div class="contato">
-                                <p class="title-contato">Contato</p>
-                                <ul class="contato-info">
-                                    <li class="phone">45 99846-2423 <a href="https://wa.me/5545998462423" class="whatsapp-icon"><img src="images/whatsapp-icon.svg" alt="WhatsApp"></a></li>
-                                    <li class="email">
-                                        <a href="mailto:josejaime@email.com">josejaime@email.com</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row bt-row">
-                <div class="col-4">
-                    <div class="card">
-                        <div class="status">Disponível</div>
-                        <div class="card-body">
-                            <h5 class="type">Construção Civil</h5>
-                            <p class="title">Jose Jaime</p>
-                            <p class="cnpj">CNPJ: 21.988/0001-00</p>
-                            <p class="adress">Zona Norte, São Paulo - SP</p>
-                            <p class="description"><strong>Descrição:</strong> Especialidade em construção, aplicação de azulejo, estrutural</p>
-                            <div class="contato">
-                                <p class="title-contato">Contato</p>
-                                <ul class="contato-info">
-                                    <li class="phone">45 99846-2423 <a href="https://wa.me/5545998462423" class="whatsapp-icon"><img src="images/whatsapp-icon.svg" alt="WhatsApp"></a></li>
-                                    <li class="email">
-                                        <a href="mailto:josejaime@email.com">josejaime@email.com</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card">
-                        <div class="status">Disponível</div>
-                        <div class="card-body">
-                            <h5 class="type">Construção Civil</h5>
-                            <p class="title">Jose Jaime</p>
-                            <p class="cnpj">CNPJ: 21.988/0001-00</p>
-                            <p class="adress">Zona Norte, São Paulo - SP</p>
-                            <p class="description"><strong>Descrição:</strong> Especialidade em construção, aplicação de azulejo, estrutural</p>
-                            <div class="contato">
-                                <p class="title-contato">Contato</p>
-                                <ul class="contato-info">
-                                    <li class="phone">45 99846-2423 <a href="https://wa.me/5545998462423" class="whatsapp-icon"><img src="images/whatsapp-icon.svg" alt="WhatsApp"></a></li>
-                                    <li class="email">
-                                        <a href="mailto:josejaime@email.com">josejaime@email.com</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
+                <div class="col-lg-4">
                     <div class="card">
                         <div class="status">Disponível</div>
                         <div class="card-body">
@@ -329,7 +263,73 @@
             </div>
 
             <div class="row bt-row">
-                <div class="col-4">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="status">Disponível</div>
+                        <div class="card-body">
+                            <h5 class="type">Construção Civil</h5>
+                            <p class="title">Jose Jaime</p>
+                            <p class="cnpj">CNPJ: 21.988/0001-00</p>
+                            <p class="adress">Zona Norte, São Paulo - SP</p>
+                            <p class="description"><strong>Descrição:</strong> Especialidade em construção, aplicação de azulejo, estrutural</p>
+                            <div class="contato">
+                                <p class="title-contato">Contato</p>
+                                <ul class="contato-info">
+                                    <li class="phone">45 99846-2423 <a href="https://wa.me/5545998462423" class="whatsapp-icon"><img src="images/whatsapp-icon.svg" alt="WhatsApp"></a></li>
+                                    <li class="email">
+                                        <a href="mailto:josejaime@email.com">josejaime@email.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="status">Disponível</div>
+                        <div class="card-body">
+                            <h5 class="type">Construção Civil</h5>
+                            <p class="title">Jose Jaime</p>
+                            <p class="cnpj">CNPJ: 21.988/0001-00</p>
+                            <p class="adress">Zona Norte, São Paulo - SP</p>
+                            <p class="description"><strong>Descrição:</strong> Especialidade em construção, aplicação de azulejo, estrutural</p>
+                            <div class="contato">
+                                <p class="title-contato">Contato</p>
+                                <ul class="contato-info">
+                                    <li class="phone">45 99846-2423 <a href="https://wa.me/5545998462423" class="whatsapp-icon"><img src="images/whatsapp-icon.svg" alt="WhatsApp"></a></li>
+                                    <li class="email">
+                                        <a href="mailto:josejaime@email.com">josejaime@email.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="status">Disponível</div>
+                        <div class="card-body">
+                            <h5 class="type">Construção Civil</h5>
+                            <p class="title">Jose Jaime</p>
+                            <p class="cnpj">CNPJ: 21.988/0001-00</p>
+                            <p class="adress">Zona Norte, São Paulo - SP</p>
+                            <p class="description"><strong>Descrição:</strong> Especialidade em construção, aplicação de azulejo, estrutural</p>
+                            <div class="contato">
+                                <p class="title-contato">Contato</p>
+                                <ul class="contato-info">
+                                    <li class="phone">45 99846-2423 <a href="https://wa.me/5545998462423" class="whatsapp-icon"><img src="images/whatsapp-icon.svg" alt="WhatsApp"></a></li>
+                                    <li class="email">
+                                        <a href="mailto:josejaime@email.com">josejaime@email.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row bt-row">
+                <div class="col-lg-4">
                     <div class="card">
                         <div class="status">Disponível</div>
 
@@ -352,7 +352,7 @@
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-lg-4">
                     <div class="card">
                         <div class="status">Disponível</div>
 
@@ -375,7 +375,7 @@
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-lg-4">
                     <div class="card">
                         <div class="status">Disponível</div>
 

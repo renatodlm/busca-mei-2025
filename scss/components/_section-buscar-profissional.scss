@@ -20,6 +20,20 @@
   .form-profissional-button {
     width: fit-content;
   }
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+
+    .form-profissional-input {
+      width: 100%;
+    }
+
+    .form-profissional-button {
+      width: 100%;
+    }
+  }
 }
 
 .pagination {

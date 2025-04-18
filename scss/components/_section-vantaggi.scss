@@ -13,5 +13,9 @@
     margin-top: 2rem;
     padding: 1.25rem 7.575rem;
     @include neuemedium;
+
+    @media (max-width: 992px) {
+      padding: 1.25rem 3.5rem;
+    }
   }
 }

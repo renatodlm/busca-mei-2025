@@ -21,6 +21,7 @@ header {
   margin-left: auto;
   width: fit-content;
   gap: 2rem;
+  padding: 0 !important;
 
   .nav {
     margin: 0;
@@ -44,7 +45,17 @@ header {
   }
 }
 
-.logo {
-  position: absolute;
-  margin-top: -2px;
+.mobile-menu-toggler {
+  border: none;
+  background: none;
+  font-size: 24px;
+  color: $blue;
+  height: 32px;
+  width: 32px;
+}
+
+@media (min-width: 992px) {
+  .mobile-menu-toggler {
+    display: none !important;
+  }
 }

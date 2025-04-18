@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="navigation-footer">
-                    <a href="index.php"><img src="images/logotipo-footer.svg" alt="buscamei"></a>
+                    <a class="logo-footer" href="index.php"><img src="images/logotipo-footer.svg" alt="buscamei"></a>
                     <div class="navbar-footer">
                         <h3 class="title-footer">Institucional</h3>
                         <ul class="menu-footer">
@@ -44,14 +44,14 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6">
                     <ul class="list-copy">
                         <li>© 2025 AEIFI. Todos Direitos Reservados.</li>
-                        <li>|</li>
+                        <li class="separator">|</li>
                         <li>CNPJ 17.318.179/0001-22</li>
                     </ul>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                     <ul class="social-media">
                         <li><img src="images/icon-facebook.svg" alt=""></li>
                         <li><img src="images/icon-instagram.svg" alt=""></li>

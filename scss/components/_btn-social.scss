@@ -3,10 +3,11 @@
   border-radius: 8px;
   padding: 12px 32px;
   color: #25d366 !important;
-  position: absolute;
   margin-top: 20px;
   display: flex;
   align-items: center;
+  display: inline-block;
+  width: fit-content;
 
   img {
     margin-right: 5px;
