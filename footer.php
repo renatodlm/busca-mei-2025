@@ -5,6 +5,15 @@
                 <div class="navigation-footer">
                     <a href="index.php"><img src="images/logotipo-footer.svg" alt="buscamei"></a>
                     <div class="navbar-footer">
+                        <h3 class="title-footer">Institucional</h3>
+                        <ul class="menu-footer">
+                            <li><a href="como-funciona.php">Como Funciona</a></li>
+                            <li><a href="faq.php">FAQ</a></li>
+                            <li><a href="politica-privacidade.php">Política de Privacidade</a></li>
+                            <li><a href="termos-de-uso.php">Termos de Uso</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-footer">
                         <h3 class="title-footer">Central de Ajuda</h3>
                         <p>
                             BuscaMEI</span> é mantida pela <a href="https://aeifi.com.br/" target="_blank">AEIFI</a>

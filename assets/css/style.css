@@ -11521,15 +11521,34 @@ footer ul {
 }
 
 .btn-veddimappa {
-  border: 1px solid #245ba7;
+  border: 1px solid #a5aaaa;
   border-radius: 4px;
   padding: 0.6875rem 1.125rem;
+  color: #a5aaaa;
+  display: inline-block;
+  float: right;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-veddimappa:hover {
+  border: 1px solid #245ba7;
+  color: #245ba7;
+}
+
+.btn-clear-all {
+  border: 1px solid #245ba7;
+  border-radius: 4px;
+  padding: 0.375rem 1.125rem;
   color: #245ba7;
   display: inline-block;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.btn-veddimappa:hover {
+.btn-clear-all a {
+  color: #245ba7;
+  text-decoration: none;
+}
+.btn-clear-all:hover {
   border: 1px solid #428bc1;
   color: #428bc1;
 }
